@@ -1,8 +1,8 @@
 import React from 'react';
-import dataBook from '../data.js';
-import Book from './Book.js';
-import BookWithoutPrice from './BookWithoutPrice.js';
-import AddBookForm from './AddBookForm.js';
+import dataDetail from '../data.js';
+import Detail from './Detail.js';
+import DetailWithoutPrice from './DetailWithoutPrice.js';
+import AddDetailForm from './AddDetailForm.js';
 import Basket from './Basket.js';
 import '../styles/index.css';
 
@@ -10,10 +10,10 @@ class App extends React.Component {
   constructor(props) {
 	  super(props);
     this.state = {
-      dataBook: dataBook,
+      dataDetail: dataDetail,
       items: {}
     };
-    this.updateBooks = this.updateBooks.bind(this);
+    this.updateDetails = this.updateDetails.bind(this);
     this.addBasket = this.addBasket.bind(this);
     this.removeBasket = this.removeBasket.bind(this);
   }
@@ -25,10 +25,10 @@ class App extends React.Component {
      this.setState({ items: items});
    }
 
-  updateBooks(newBook){
-    const tmp = this.state.dataBook;
-    tmp.push(newBook);
-    this.setState({dataBook: tmp});
+  updateDetails(newDetail){
+    const tmp = this.state.dataDetail;
+    tmp.push(newDetail);
+    this.setState({dataDetail: tmp});
   }
 
   removeBasket (id){
@@ -46,9 +46,9 @@ class App extends React.Component {
 
   render(){
 
-    const books = dataBook.map(item => {
+    const Details = dataDetail.map(item => {
                                  return item.price ?
-                                   <Book
+                                   <Detail
                                      id={item["id"]}
                                      title={item["title"]}
                                      author={item["author"]}
@@ -56,7 +56,7 @@ class App extends React.Component {
                                      key={item.id}
                                      handleAddBasket={this.addBasket}
                                    /> :
-                                   <BookWithoutPrice
+                                   <DetailWithoutPrice
                                      title={item["title"]}
                                      author={item["author"]}
                                      price={item["price"]}
@@ -69,13 +69,11 @@ class App extends React.Component {
         handleRemoveBasket={this.removeBasket}
       />
       <hr/><br/>
-      <AddBookForm onSubmit={this.updateBooks} />
+      <AddDetailForm onSubmit={this.updateDetails} />
       <br/><hr/>
-      <div class = "container">
-        <div class = "row">
-          {books}
+        <div className = "row">
+          {Details}
         </div>
-      </div>
       <br/><br/><br/><br/><hr/>
     </div>;
   }

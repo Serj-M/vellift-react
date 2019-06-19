@@ -1,7 +1,6 @@
 import React from 'react';
-//import dataBook from '../data.js';
 
-export default class AddBookForm extends React.Component{
+export default class AddDetailForm extends React.Component{
   constructor(props){
     super(props);
     this.state = {
@@ -14,12 +13,12 @@ export default class AddBookForm extends React.Component{
     this.handleChange = this.handleChange.bind(this);
   }
 
-  // нужно добавить проверку, существует ли книга с таким id
+  // нужно добавить проверку, существует ли деталь с таким id
 
-  isValidBook(book){
-    console.log(book) //только для проверки
-    //return book.id && book.title && book.author && true //аналогчно if
-    if (book.id && book.title && book.author )
+  isValidDetail(Detail){
+    console.log(Detail) //только для проверки
+    //return Detail.id && Detail.title && Detail.author && true //аналогчно if
+    if (Detail.id && Detail.title && Detail.author )
         return true;
     return false;
   }
@@ -27,11 +26,11 @@ export default class AddBookForm extends React.Component{
   handleSubmit(event) {
     event.preventDefault();
     //alert("test");
-    if( this.isValidBook(this.state) ){
-      //dataBook.push(this.state); //Не нужен, так как добавляем на страницу миную массив
+    if( this.isValidDetail(this.state) ){
+      //dataDetail.push(this.state); //Не нужен, так как добавляем на страницу миную массив
       this.props.onSubmit(this.state); //всплытие состояния
       this.setState({ id: '', title: '', author: '', price: '' }); // для очистки формы
-      //console.log(dataBook); //только для проверки
+      //console.log(dataDetail); //только для проверки
     } else alert("Заполните поля корректно")
   }
 

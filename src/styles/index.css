@@ -1,23 +1,14 @@
-#root .books {
-  background: #ff2;
-}
-
-#root .book {
-  background: #ff9;
-}
-
 #root h3 {
-  color: #f22
+  color: #004D40;
+  line-height: 1.7;
 }
 
-#root .book-selected {
+#root .detail-selected {
   background: #f2f2;
-  margin-bottom: 10px;
 }
 
-#root .book-default {
-  background: #cef;
-  margin-bottom: 10px;
+#root .detail-default {
+  background: #E7E7E7;
 }
 
 #root .basket {
@@ -36,4 +27,13 @@
 #root .basket-item span,
 #root .basket-item a {
   padding: 0 7px
+}
+
+.card {
+  border: 10px solid #fff;
+}
+
+.row {
+  margin-right: 0px;
+  margin-left: 0px;
 }

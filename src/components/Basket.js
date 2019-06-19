@@ -1,5 +1,5 @@
 import React from 'react';
-import dataBook from '../data.js';
+import dataDetail from '../data.js';
 
 export default class Basket extends React.Component {
   constructor(props) {
@@ -16,8 +16,8 @@ export default class Basket extends React.Component {
   }
 
   getIndexById(id){
-    for(let p in dataBook)
-      if (dataBook[p]['id'] == id)
+    for(let p in dataDetail)
+      if (dataDetail[p]['id'] == id)
         return p
   }
 
@@ -26,12 +26,12 @@ export default class Basket extends React.Component {
     for(let i in this.props.items){
       //console.log(i + " =  " + this.props.items[i] + " ("  + this.getIndexById(i) + ") ")
       j = this.getIndexById(i)
-      sum += this.props.items[i] * dataBook[j]['price']
+      sum += this.props.items[i] * dataDetail[j]['price']
       items.push(
-        <div key={dataBook[j]['id']} className="basket-item">
-          <a href="#">«{dataBook[j]['title']}»</a>
+        <div key={dataDetail[j]['id']} className="basket-item">
+          <a href="#">«{dataDetail[j]['title']}»</a>
           <span>{this.props.items[i]}шт</span>
-          <span>{dataBook[j]['price']}руб</span>
+          <span>{dataDetail[j]['price']}руб</span>
           <a href="#" onClick={this.deleteBasketItem} id={i}>Удалить</a>
         </div>
       );

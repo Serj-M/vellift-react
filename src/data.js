@@ -1,4 +1,4 @@
-const dataBook = [
+const dataDetail = [
   {id:1, title:"React.js. Быстрый старт", author:"Стоян Стефанов", price: 750},
   {id:5, title:"React и Redux", author:"Алекс Бэнкс, Ева Порсело", price: 950},
   {id:6, title:"The Road to learn React", author:"Robin Wieruch", price: 1300},
@@ -6,4 +6,4 @@ const dataBook = [
   {id:9, title:"Front-end. Клиентская разработка", author:"Крис Аквино, Тодд Ганди", price: 2200},
 ];
 
-export default dataBook;
+export default dataDetail;

@@ -71,7 +71,11 @@ class App extends React.Component {
       <hr/><br/>
       <AddBookForm onSubmit={this.updateBooks} />
       <br/><hr/>
-      {books}
+      <div class = "container">
+        <div class = "row">
+          {books}
+        </div>
+      </div>
       <br/><br/><br/><br/><hr/>
     </div>;
   }

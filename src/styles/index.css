@@ -1,26 +1,26 @@
-.books {
+#root .books {
   background: #ff2;
 }
 
-.book {
+#root .book {
   background: #ff9;
 }
 
-h3 {
+#root h3 {
   color: #f22
 }
 
-.book-selected {
+#root .book-selected {
   background: #f2f2;
   margin-bottom: 10px;
 }
 
-.book-default {
+#root .book-default {
   background: #cef;
   margin-bottom: 10px;
 }
 
-.basket {
+#root .basket {
   position: fixed;
   background: rgba(255, 255, 255, .8);
   top: 0;
@@ -29,11 +29,11 @@ h3 {
   border: 1px solid rgba(0, 0, 0, .1);
 }
 
-.basket-item, .basket h3 {
+#root .basket-item, .basket h3 {
   padding: 5px 10px;
 }
 
-.basket-item span,
-.basket-item a {
+#root .basket-item span,
+#root .basket-item a {
   padding: 0 7px
 }

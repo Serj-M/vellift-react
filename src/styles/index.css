@@ -1,6 +1,6 @@
 #root h3 {
   color: #004D40;
-  line-height: 1.7;
+  line-height: 1.5;
 }
 
 #root .detail-selected {
@@ -9,6 +9,7 @@
 
 #root .detail-default {
   background: #E7E7E7;
+  padding: 0 0;
 }
 
 #root .basket {
@@ -36,4 +37,16 @@
 .row {
   margin-right: 0px;
   margin-left: 0px;
+}
+
+.btn-primary, .btn-primary:active, .btn-primary:visited {
+    background-color: #004D40 !important;
+    border-color: #004D40 !important;
+}
+.btn-primary:hover {
+    background-color: #087966 !important;
+    border-color: #087966 !important;
+}
+.btn-primary.focus, .btn-primary:focus {
+    box-shadow: 0 0 0 0.2rem rgb(8, 121, 102, 0.5) !important;
 }

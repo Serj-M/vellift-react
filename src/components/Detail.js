@@ -27,13 +27,26 @@ export default class Detail extends React.Component {
   // }
   render(){
     const price = this.props.price ? <strong>{this.props.price}</strong> : <del>&nbsp;</del>;
-    return <div className={"card col-xl-4 col-lg-4 col-sm-12 "+(this.state.selected ? "detail-selected" : "detail-default")} >
-        <h3>{this.props.title}</h3>
-        <img src={'http://placehold.it/100x120?text='+this.props.title} alt="" />
-        <p>Автор: {this.props.author}</p>
-        <p>Цена: {price} руб.</p>
-        <a href="#" onClick={this.handleClick}>Сравнить</a>&nbsp;&nbsp;&nbsp;
-        <a href="#" onClick={this.addBasketDetail}>В корзину</a>
-      </div>;
+    return <div className={"card md-3 "+(this.state.selected ? "detail-selected" : "detail-default")} >
+      <div className="row no-gutters">
+        <div className="col-md-5">
+          <a href="https://via.placeholder.com/308x205"><img src="https://via.placeholder.com/308x205" className="card-img" alt=""/></a>
+        </div>
+        <div className="col-md-7">
+          <div className="card-body">
+            <h3 className="card-title">{this.props.title}</h3>
+            <p className="card-text"><strong>Описание: </strong>{this.props.description}</p>
+            <p className="card-text"><strong>Тип лебедки: </strong>{this.props.type}<br/><strong>Блок детали: </strong>{this.props.consist}</p>
+            {/*<p className="card-text">Автор: {this.props.author}</p>
+            <p className="card-text">Цена: {price} руб.</p>
+            <a href="#" onClick={this.handleClick}>Сравнить</a>&nbsp;&nbsp;&nbsp;
+            <a href="#" onClick={this.addBasketDetail}>В корзину</a>*/}
+            <div className="text-right">
+              <a href="#" className="btn btn-primary" onClick={this.addBasketDetail}>Узнать стоимость</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   }
 }

@@ -46,21 +46,17 @@ class App extends React.Component {
 
   render(){
 
-    const Details = dataDetail.map(item => {
-                                 return item.price ?
-                                   <Detail
+    const details = dataDetail.map(item => {
+                                 return <Detail
                                      id={item["id"]}
                                      title={item["title"]}
+                                     description={item["description"]}
+                                     type={item["type"]}
+                                     consist={item["consist"]}
                                      author={item["author"]}
                                      price={item["price"]}
                                      key={item.id}
                                      handleAddBasket={this.addBasket}
-                                   /> :
-                                   <DetailWithoutPrice
-                                     title={item["title"]}
-                                     author={item["author"]}
-                                     price={item["price"]}
-                                     key={item.id}
                                    />
                                });
     return <div>
@@ -71,9 +67,9 @@ class App extends React.Component {
       <hr/><br/>
       <AddDetailForm onSubmit={this.updateDetails} />
       <br/><hr/>
-        <div className = "row">
-          {Details}
-        </div>
+      <div className = "row">
+        {details}
+      </div>
       <br/><br/><br/><br/><hr/>
     </div>;
   }

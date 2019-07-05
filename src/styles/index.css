@@ -10,6 +10,7 @@
 #root .detail-default {
   background: #E7E7E7;
   padding: 0 0;
+  margin-bottom: 15px;
 }
 
 #root .basket {
@@ -30,9 +31,9 @@
   padding: 0 7px
 }
 
-.card {
+/*.card {
   border: 10px solid #fff;
-}
+}*/
 
 .row {
   margin-right: 0px;

@@ -31,20 +31,13 @@ export default class Basket extends React.Component {
         <div key={dataDetail[j]['id']} className="basket-item">
           <a href="#">«{dataDetail[j]['title']}»</a>
           <span>{this.props.items[i]}шт</span>
-          <span>{dataDetail[j]['price']}руб</span>
           <a href="#" onClick={this.deleteBasketItem} id={i}>Удалить</a>
         </div>
       );
 	  }
 
-    items.push(
-        <div key={sum} className="basket-item">
-          <span>Всего <strong>{sum}</strong> руб.</span>
-        </div>
-      );
-
     return <div className='basket'>
-        <h3>Корзина</h3>
+        <h3>Ваш список запчастей</h3>
         {items}
       </div>;
   }

@@ -23,8 +23,8 @@ const dataDetail = [
     id: 2,
     winch: "sgr10",
     title: "тест бдеталь 2",
-    description: "Описание детали. Например: Вес: 1.3кг. Размеры: 10х2.5х53см. Материал: метал.",
-    type: "SGR10, SGR11",
+    description: "Вентилятор охлаждение электродвигателя.",
+    type: "SGR10, SGR10ЧР, SGR11, SGR11ЧР, SGR22, SGR22ЧР, SGR26, SGR31, SGR31ЧР, SGR16, SGR36",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.042",
     img: "./img_details/0411.138SGR.01.042.jpg"
@@ -35,7 +35,7 @@ const dataDetail = [
     title: "тест вдеталь 3",
     description: "Описание детали. Например: Вес: 1.3кг. Размеры: 10х2.5х53см. Материал: метал.",
     type: "SGR10, SGR11, SGR16",
-    consist: "Двигатель",
+    consist: "Лебедка",
     designation: "0411.138SGR.01.043",
     img: "./img_details/0411.138SGR.01.043.jpg"
   },
@@ -43,9 +43,9 @@ const dataDetail = [
     id: 4,
     winch: "sgr10",
     title: "тест гдеталь 4",
-    description: "Описание детали. Например: Вес: 1.3кг. Размеры: 10х2.5х53см. Материал: метал.",
-    type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
-    consist: "Тормозная система",
+    description: "Вентилятор охлаждение электродвигателя",
+    type: "SGR10, SGR10ЧР, SGR11, SGR11ЧР, SGR22, SGR22ЧР, SGR26, SGR31, SGR31ЧР, SGR16, SGR36",
+    consist: "",
     designation: "0411.138SGR.01.044",
     img: "./img_details/0411.138SGR.01.044.jpg"
   },
@@ -3521,7 +3521,7 @@ const dataDetail = [
   },
   {
     id: 352,
-    winch: "sgr33",
+    winch: "sgr31",
     title: "бдеталь 9",
     description: "Описание детали. Например: Вес: 1.3кг. Размеры: 10х2.5х53см. Материал: метал.",
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",

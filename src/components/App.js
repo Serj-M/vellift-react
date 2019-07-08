@@ -15,13 +15,16 @@ class App extends React.Component {
     this.state = {
       //changeSelect: false,
       value: '',
+      valueRadio: '',
       dataDetail: dataDetail,
+      newDataDetail: [],
       items: {}
     };
     this.updateDetails = this.updateDetails.bind(this);
     this.addBasket = this.addBasket.bind(this);
     this.removeBasket = this.removeBasket.bind(this);
     this.handleSelectChange = this.handleSelectChange.bind(this);
+    this.handleRadioChange = this.handleRadioChange.bind(this);
   }
 
   addBasket(id){
@@ -54,14 +57,29 @@ class App extends React.Component {
   handleSelectChange(value) {
     // изменение состояния компонента Select
     this.setState({ value });
-    //console.log(value);
+    console.log(value);
     // формирование нового массива со списком деталей для выбранной лебедки
-    let newDataDetail = dataDetail.filter(obj => {
+    this.state.newDataDetail = dataDetail.filter(obj => {
       //console.log(obj);
       return obj.winch == value.toLowerCase();
     });
-    // изменение состояния списка деталей
-    this.setState({ dataDetail: newDataDetail }, () => {
+    // изменение состояния списка деталей лкбедки
+    this.setState({ dataDetail: this.state.newDataDetail }, () => {
+        console.log(this.state.dataDetail);
+    });
+  }
+
+  handleRadioChange(valueRadio) {
+    // изменение состояния компонента Select
+    this.setState({ valueRadio });
+    console.log(valueRadio);
+    // формирование нового массива со списком деталей для выбранного Блока деталей
+    let radioDataDetail = this.state.newDataDetail.filter(obj => {
+      console.log(obj);
+      return obj.consist == valueRadio;
+    });
+    // изменение состояния списка Блока деталей
+    this.setState({ dataDetail: radioDataDetail }, () => {
         console.log(this.state.dataDetail);
     });
   }
@@ -107,12 +125,8 @@ class App extends React.Component {
       <br/><hr/>*/}
       <br/>
       <Select value={value} onChange={this.handleSelectChange}/>
-      <small id="passwordHelpBlock" className="form-text text-muted">
-        Сначала выберите лебедку чтобы воспользоваться сортировкой и поиском.
-      </small>
       <br/>
-      {/*<fieldset disabled></fieldset>*/}
-      <Radio/>
+      <Radio value={value} onChange={this.handleRadioChange}/>
       <br/>
       <Input/>
       <br/><hr/>

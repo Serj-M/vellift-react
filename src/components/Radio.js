@@ -8,13 +8,13 @@ export default class Radio extends React.Component {
 
 
   handleChange(ev) {
-    //console.log(ev.target.value);
+    console.log(`из Radio.js ${ev.target.value}`);
     //this.setState({value: ev.target.value});
     this.props.onChange(ev.target.value);
   }
 
   render(){
-    const value = this.props.value;
+    //const value = this.props;
     return <div>
       <div className="custom-control custom-radio custom-control-inline">
         <input defaultChecked value="Все запчасти" type="radio" name="choice" id="A" onChange={this.handleChange} className="custom-control-input" />

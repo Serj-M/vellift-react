@@ -58,15 +58,20 @@ class App extends React.Component {
     // изменение состояния компонента Select
     this.setState({ value });
     console.log(value);
+
+    // переводим Radio во Все запчасти
+    this.handleRadioChange('Все запчасти');
+
     // формирование нового массива со списком деталей для выбранной лебедки
     this.state.newDataDetail = dataDetail.filter(obj => {
       //console.log(obj);
       return obj.winch == value.toLowerCase();
     });
     // изменение состояния списка деталей лкбедки
-    this.setState({ dataDetail: this.state.newDataDetail }, () => {
-        console.log(this.state.dataDetail);
-    });
+    this.setState({
+      dataDetail: this.state.newDataDetail},
+      () => { console.log(this.state.dataDetail, this.state.valueRadio); }
+    );
   }
 
   handleRadioChange(valueRadio) {
@@ -79,9 +84,15 @@ class App extends React.Component {
       return obj.consist == valueRadio;
     });
     // изменение состояния списка Блока деталей
-    this.setState({ dataDetail: radioDataDetail }, () => {
-        console.log(this.state.dataDetail);
-    });
+    if ( valueRadio == 'Все запчасти' ) {
+      this.setState({ dataDetail: this.state.newDataDetail }, () => {
+          console.log(this.state.dataDetail);
+      });
+    } else {
+      this.setState({ dataDetail: radioDataDetail }, () => {
+          console.log(this.state.dataDetail);
+      });
+    }
   }
 
   render(){
@@ -126,7 +137,7 @@ class App extends React.Component {
       <br/>
       <Select value={value} onChange={this.handleSelectChange}/>
       <br/>
-      <Radio value={value} onChange={this.handleRadioChange}/>
+      <Radio value={this.state.valueRadio} onChange={this.handleRadioChange}/>
       <br/>
       <Input/>
       <br/><hr/>

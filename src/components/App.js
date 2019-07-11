@@ -14,10 +14,13 @@ class App extends React.Component {
 	  super(props);
     this.state = {
       //changeSelect: false,
-      value: '',
-      valueRadio: '',
+      value: 'All',
+      isChecked: true,
+      valueRadio: 'Все запчасти',
       dataDetail: dataDetail,
-      newDataDetail: [],
+      //newDataDetail: [],
+      selectDataDetail: [],
+      radioDataDetail: [],
       items: {}
     };
     this.updateDetails = this.updateDetails.bind(this);
@@ -55,51 +58,56 @@ class App extends React.Component {
   }
 
   handleSelectChange(value) {
-    // изменение состояния компонента Select
-    this.setState({ value });
-    console.log(value);
-
-    // переводим Radio во Все запчасти
-    this.handleRadioChange('Все запчасти');
-
-    // формирование нового массива со списком деталей для выбранной лебедки
-    this.state.newDataDetail = dataDetail.filter(obj => {
-      //console.log(obj);
-      return obj.winch == value.toLowerCase();
-    });
     // изменение состояния списка деталей лкбедки
     this.setState({
-      dataDetail: this.state.newDataDetail},
-      () => { console.log(this.state.dataDetail, this.state.valueRadio); }
+        value,
+        selectDataDetail: this.state.dataDetail.filter(obj => {
+          //console.log(obj);
+          return obj.winch == value.toLowerCase();
+        }),
+      },
+      () => { console.log(this.state.selectDataDetail) }
     );
+    console.log(value);
+    // изменение состояния списка запчастей для компанента Radio
+    this.handleRadioChange('Все запчасти');
   }
 
   handleRadioChange(valueRadio) {
     // изменение состояния компонента Select
-    this.setState({ valueRadio });
+    //this.setState({ valueRadio });
     console.log(valueRadio);
-    // формирование нового массива со списком деталей для выбранного Блока деталей
-    let radioDataDetail = this.state.newDataDetail.filter(obj => {
-      console.log(obj);
-      return obj.consist == valueRadio;
-    });
-    // изменение состояния списка Блока деталей
+    // изменение состояния списка запчастей
     if ( valueRadio == 'Все запчасти' ) {
-      this.setState({ dataDetail: this.state.newDataDetail }, () => {
-          console.log(this.state.dataDetail);
-      });
+      this.setState(
+        {
+          valueRadio,
+          radioDataDetail: this.state.selectDataDetail,
+          isChecked: true
+        },
+        () => { console.log(this.state.radioDataDetail) }
+      );
     } else {
-      this.setState({ dataDetail: radioDataDetail }, () => {
-          console.log(this.state.dataDetail);
-      });
+      this.setState(
+        {
+          valueRadio,
+          // формирование нового массива со списком деталей для выбранного Блока деталей
+          radioDataDetail: this.state.selectDataDetail.filter(obj => {
+            //console.log(obj);
+            return obj.consist == valueRadio;
+          }),
+          isChecked: false
+        },
+        () => { console.log(this.state.radioDataDetail) }
+      );
     }
   }
 
   render(){
-    const value = this.state.value;
+    //const value = this.state.value;
     let details;
     if (this.state.value != 'All') {
-      details = this.state.dataDetail.map(item => {
+      details = this.state.radioDataDetail.map(item => {
                                    return <Detail
                                        id={item["id"]}
                                        title={item["title"]}
@@ -135,9 +143,9 @@ class App extends React.Component {
       <AddDetailForm onSubmit={this.updateDetails} />
       <br/><hr/>*/}
       <br/>
-      <Select value={value} onChange={this.handleSelectChange}/>
+      <Select value={this.state.value} onChange={this.handleSelectChange}/>
       <br/>
-      <Radio value={this.state.valueRadio} onChange={this.handleRadioChange}/>
+      <Radio checked={this.state.isChecked} value={this.state.valueRadio} onChange={this.handleRadioChange}/>
       <br/>
       <Input/>
       <br/><hr/>

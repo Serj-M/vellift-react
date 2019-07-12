@@ -13,17 +13,13 @@ class App extends React.Component {
   constructor(props) {
 	  super(props);
     this.state = {
-      //changeSelect: false,
-      value: 'All',
       isChecked: true,
-      valueRadio: 'Все запчасти',
+      value: 'All',
+      valueRadio: '',
       dataDetail: dataDetail,
-      //newDataDetail: [],
       selectDataDetail: [],
-      radioDataDetail: [],
       items: {}
     };
-    this.updateDetails = this.updateDetails.bind(this);
     this.addBasket = this.addBasket.bind(this);
     this.removeBasket = this.removeBasket.bind(this);
     this.handleSelectChange = this.handleSelectChange.bind(this);
@@ -36,13 +32,6 @@ class App extends React.Component {
     //console.log(items);
     this.setState({ items: items });
    }
-
-  updateDetails(newDetail){
-    const tmp = this.state.dataDetail;
-    tmp.push(newDetail);
-    this.setState({ dataDetail: tmp });
-    console.log(dataDetail);
-  }
 
   removeBasket (id){
     //let items = this.state.items.slice(0), result = [];
@@ -61,53 +50,46 @@ class App extends React.Component {
     // изменение состояния списка деталей лкбедки
     this.setState({
         value,
+        valueRadio: 'Все запчасти',
+        isChecked: true,
         selectDataDetail: this.state.dataDetail.filter(obj => {
           //console.log(obj);
           return obj.winch == value.toLowerCase();
         }),
-      },
-      () => { console.log(this.state.selectDataDetail) }
+      }
     );
     console.log(value);
     // изменение состояния списка запчастей для компанента Radio
-    this.handleRadioChange('Все запчасти');
+    //this.handleRadioChange('Все запчасти');
   }
 
   handleRadioChange(valueRadio) {
-    // изменение состояния компонента Select
-    //this.setState({ valueRadio });
-    console.log(valueRadio);
-    // изменение состояния списка запчастей
-    if ( valueRadio == 'Все запчасти' ) {
-      this.setState(
-        {
-          valueRadio,
-          radioDataDetail: this.state.selectDataDetail,
-          isChecked: true
-        },
-        () => { console.log(this.state.radioDataDetail) }
-      );
-    } else {
-      this.setState(
-        {
-          valueRadio,
-          // формирование нового массива со списком деталей для выбранного Блока деталей
-          radioDataDetail: this.state.selectDataDetail.filter(obj => {
-            //console.log(obj);
-            return obj.consist == valueRadio;
-          }),
-          isChecked: false
-        },
-        () => { console.log(this.state.radioDataDetail) }
-      );
-    }
+    this.setState(
+      {
+        valueRadio,
+        // если true, активным становиться Radio у кторого value = 'Все запчасти'
+        isChecked: (valueRadio == 'Все запчасти') ? true : false
+      },
+      //() => {console.log(`handleRadioChange = valueRadio ${valueRadio}, isChecked ${this.state.isChecked} `);}
+    )
   }
 
   render(){
     //const value = this.state.value;
-    let details;
+    let details, radioDataDetail=[];
+    console.log(this.state.valueRadio);
+
     if (this.state.value != 'All') {
-      details = this.state.radioDataDetail.map(item => {
+      if ( this.state.valueRadio == 'Все запчасти' ) {
+        radioDataDetail = this.state.selectDataDetail;
+        //console.log(`render radioDataDetail ${radioDataDetail} this.state.selectDataDetail ${this.state.selectDataDetail}`);
+      } else {
+        radioDataDetail = this.state.selectDataDetail.filter(obj => {
+          return obj.consist == this.state.valueRadio;
+        });
+        //console.log(`render = radioDataDetail ${radioDataDetail} this.state.selectDataDetail ${this.state.selectDataDetail}`);
+      };
+      details = radioDataDetail.map(item => {
                                    return <Detail
                                        id={item["id"]}
                                        title={item["title"]}
@@ -133,6 +115,7 @@ class App extends React.Component {
                                      />
                                  });
     }
+    console.log(details);
 
     return <div>
       <Basket

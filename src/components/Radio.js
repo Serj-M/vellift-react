@@ -8,11 +8,7 @@ export default class Radio extends React.Component {
 
 
   handleChange(ev) {
-    //console.log(`из Radio.js ${ev.target.value}`);
-    //this.setState({value: ev.target.value});
     this.props.onChange(ev.target.value);
-    console.log(ev.target.checked);
-    //this.isChecked = true;
   }
 
   render(){

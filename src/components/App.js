@@ -8,6 +8,7 @@ import DetailWithoutPrice from './DetailWithoutPrice.js';
 import AddDetailForm from './AddDetailForm.js';
 import Basket from './Basket.js';
 import '../styles/index.css';
+//import Autosuggest from 'react-autosuggest';
 
 class App extends React.Component {
   constructor(props) {
@@ -26,7 +27,7 @@ class App extends React.Component {
     this.handleRadioChange = this.handleRadioChange.bind(this);
   }
 
-  addBasket(id){
+  addBasket (id){
     let items = Object.assign({}, this.state.items);
     items[id] = (id in items) ? items[id]+1 : 1;
     //console.log(items);
@@ -76,10 +77,11 @@ class App extends React.Component {
 
   render(){
     //const value = this.state.value;
-    let details, radioDataDetail=[];
+    let details, toggle, radioDataDetail=[];
     console.log(this.state.valueRadio);
 
     if (this.state.value != 'All') {
+      toggle = false;
       if ( this.state.valueRadio == 'Все запчасти' ) {
         radioDataDetail = this.state.selectDataDetail;
         //console.log(`render radioDataDetail ${radioDataDetail} this.state.selectDataDetail ${this.state.selectDataDetail}`);
@@ -103,6 +105,8 @@ class App extends React.Component {
                                  });
     } else {
       details = dataDetail.map(item => {
+                                   this.state.isChecked = true;
+                                   toggle = true;
                                    return <Detail
                                        id={item["id"]}
                                        title={item["title"]}
@@ -122,16 +126,15 @@ class App extends React.Component {
         items={this.state.items}
         handleRemoveBasket={this.removeBasket}
       />
-      {/*hr/><br/>
-      <AddDetailForm onSubmit={this.updateDetails} />
-      <br/><hr/>*/}
       <br/>
       <Select value={this.state.value} onChange={this.handleSelectChange}/>
       <br/>
-      <Radio checked={this.state.isChecked} value={this.state.valueRadio} onChange={this.handleRadioChange}/>
-      <br/>
-      <Input/>
-      <br/><hr/>
+      <fieldset disabled={toggle}>
+        <Radio checked={this.state.isChecked} value={this.state.valueRadio} onChange={this.handleRadioChange}/>
+        <br/>
+        <Input/>
+      </fieldset>
+      <hr/><br/>
       <div className = "row">
         {details}
       </div>

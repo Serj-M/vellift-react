@@ -8,7 +8,8 @@ import DetailWithoutPrice from './DetailWithoutPrice.js';
 import AddDetailForm from './AddDetailForm.js';
 import Basket from './Basket.js';
 import '../styles/index.css';
-//import Autosuggest from 'react-autosuggest';
+import Search from './Search.js';
+import { render } from "react-dom";
 
 class App extends React.Component {
   constructor(props) {
@@ -132,7 +133,12 @@ class App extends React.Component {
       <fieldset disabled={toggle}>
         <Radio checked={this.state.isChecked} value={this.state.valueRadio} onChange={this.handleRadioChange}/>
         <br/>
-        <Input/>
+        <div className="input-group mb-3">
+          <Search/>
+          <div className="input-group-append ">
+            <button onClick={this.handleClick} className="btn btn-primary" type="button">Искать</button>
+          </div>
+        </div>
       </fieldset>
       <hr/><br/>
       <div className = "row">

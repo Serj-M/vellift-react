@@ -16,7 +16,7 @@ export default class Select extends React.Component {
     const value = this.props.value;
     return <div>
       <div className="input-group-prepend">
-        <label className="input-group-text" htmlFor="inputGroupSelect01">ВЫБЕРИТЕ ЛЕБЕДКУ</label>
+        <label className="input-group-text" htmlFor="inputGroupSelect01">Выбор лебедки</label>
         <select value={value} onChange={this.handleChange} className="custom-select" id="inputGroupSelect01">
           <option value="All">Все лебедки</option>
           <option value="SGR10">SGR10</option>

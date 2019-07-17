@@ -52,3 +52,9 @@
 .btn-primary.focus, .btn-primary:focus {
     box-shadow: 0 0 0 0.2rem rgb(8, 121, 102, 0.5) !important;
 }
+
+@media screen and (max-width: 600px) {
+  .custom-control-inline {
+    display: block;
+  }
+}

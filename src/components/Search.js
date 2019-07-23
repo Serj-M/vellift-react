@@ -2,7 +2,7 @@
 import React from 'react';
 import Autosuggest from 'react-autosuggest';
 import '../styles/search.css'
-import dataDetail from '../data.js';
+import { arrFiltered } from './App.js';
 export let inputProps = {};
 
 function escapeRegexCharacters(str) {
@@ -11,18 +11,12 @@ function escapeRegexCharacters(str) {
 
 // Teach Autosuggest how to calculate suggestions for any given input value.
 const getSuggestions = value => {
-  // Формирование массива без повторений
-  var uniq = {};
-  var arrFiltered = dataDetail.filter(obj => !uniq[obj.title] && (uniq[obj.title] = true));
-  //console.log('Исходный массив', dataDetail);
-  console.log('Массив объектов без поторений', arrFiltered);
-
   const escapedValue = escapeRegexCharacters(value.trim());
   if (escapedValue === '') {
     return [];
   }
   const regex = new RegExp(escapedValue, 'i');
-  return arrFiltered.filter(lang => regex.test(getSuggestionValue(lang)));
+  return arrFiltered.filter(data => regex.test(getSuggestionValue(data)));
 };
 
 // When suggestion is clicked, Autosuggest needs to populate the input

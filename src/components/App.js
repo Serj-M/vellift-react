@@ -2,17 +2,17 @@ import React from 'react';
 import dataDetail from '../data.js';
 import Detail from './Detail.js';
 import Select from './Select.js';
-import Input from './Input.js';
 import Radio from './Radio.js';
-import DetailWithoutPrice from './DetailWithoutPrice.js';
-import AddDetailForm from './AddDetailForm.js';
+//import DetailWithoutPrice from './DetailWithoutPrice.js';
+//import AddDetailForm from './AddDetailForm.js';
 import Basket from './Basket.js';
 import '../styles/index.css';
 import Search from './Search.js';
-import { render } from "react-dom";
+//import { render } from "react-dom";
 import { inputProps } from './Search.js';
+export let arrFiltered = [];
 
-class App extends React.Component {
+export default class App extends React.Component {
   constructor(props) {
 	  super(props);
     this.state = {
@@ -63,12 +63,18 @@ class App extends React.Component {
         }),
       }
     );
-    console.log(value);
+    console.log('Тип лебедки (из handleSelectChange в App): ', value);
+
     // изменение состояния списка запчастей для компанента Radio
     //this.handleRadioChange('Все запчасти');
+
+    let uniq = {};
+    arrFiltered = dataDetail.filter(obj => !uniq[obj.title] && (uniq[obj.title] = true));
+    //console.log('Исходный массив', dataDetail);
+    console.log('Массив объектов без поторений (из handleSelectChange в App): ', arrFiltered);
   }
 
-  handleRadioChange(valueRadio) {
+  handleRadioChange(valueRadio, inputProps) {
     this.setState(
       {
         valueRadio,
@@ -80,26 +86,26 @@ class App extends React.Component {
   }
 
   handleSearchClick() {
-    console.log(inputProps.value);
+    console.log('Поиск детали (из handleSearchClick в App): ', inputProps.value);
   }
 
   render(){
     //const value = this.state.value;
-    let details, toggleFieldset, radioDataDetail=[];
-    console.log(this.state.valueRadio);
+    let details, toggleFieldset, renderDataDetail=[];
+    console.log('Блок деталей (из render в App): ', this.state.valueRadio);
 
     if (this.state.value != 'All') {
       toggleFieldset = false;
       if ( this.state.valueRadio == 'Все запчасти' ) {
-        radioDataDetail = this.state.selectDataDetail;
-        //console.log(`render radioDataDetail ${radioDataDetail} this.state.selectDataDetail ${this.state.selectDataDetail}`);
+        renderDataDetail = this.state.selectDataDetail;
+        //console.log(`render renderDataDetail ${renderDataDetail} this.state.selectDataDetail ${this.state.selectDataDetail}`);
       } else {
-        radioDataDetail = this.state.selectDataDetail.filter(obj => {
+        renderDataDetail = this.state.selectDataDetail.filter(obj => {
           return obj.consist == this.state.valueRadio;
         });
-        //console.log(`render = radioDataDetail ${radioDataDetail} this.state.selectDataDetail ${this.state.selectDataDetail}`);
+        //console.log(`render = renderDataDetail ${renderDataDetail} this.state.selectDataDetail ${this.state.selectDataDetail}`);
       };
-      details = radioDataDetail.map(item => {
+      details = renderDataDetail.map(item => {
                                    return <Detail
                                        id={item["id"]}
                                        title={item["title"]}
@@ -127,7 +133,7 @@ class App extends React.Component {
                                      />
                                  });
     }
-    console.log(details);
+    console.log('Детали для отрисовки (из render в App): ', details);
 
     return <div>
       <Basket
@@ -155,5 +161,3 @@ class App extends React.Component {
     </div>;
   }
 }
-
-export default App;

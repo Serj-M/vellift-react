@@ -10,6 +10,7 @@ import Basket from './Basket.js';
 import '../styles/index.css';
 import Search from './Search.js';
 import { render } from "react-dom";
+import { inputProps } from './Search.js';
 
 class App extends React.Component {
   constructor(props) {
@@ -18,6 +19,7 @@ class App extends React.Component {
       isChecked: true,
       value: 'All',
       valueRadio: '',
+      //valueSearch: '',
       dataDetail: dataDetail,
       selectDataDetail: [],
       items: {}
@@ -26,6 +28,7 @@ class App extends React.Component {
     this.removeBasket = this.removeBasket.bind(this);
     this.handleSelectChange = this.handleSelectChange.bind(this);
     this.handleRadioChange = this.handleRadioChange.bind(this);
+    this.handleSearchClick = this.handleSearchClick.bind(this);
   }
 
   addBasket (id){
@@ -76,13 +79,17 @@ class App extends React.Component {
     )
   }
 
+  handleSearchClick() {
+    console.log(inputProps.value);
+  }
+
   render(){
     //const value = this.state.value;
-    let details, toggle, radioDataDetail=[];
+    let details, toggleFieldset, radioDataDetail=[];
     console.log(this.state.valueRadio);
 
     if (this.state.value != 'All') {
-      toggle = false;
+      toggleFieldset = false;
       if ( this.state.valueRadio == 'Все запчасти' ) {
         radioDataDetail = this.state.selectDataDetail;
         //console.log(`render radioDataDetail ${radioDataDetail} this.state.selectDataDetail ${this.state.selectDataDetail}`);
@@ -107,7 +114,7 @@ class App extends React.Component {
     } else {
       details = dataDetail.map(item => {
                                    this.state.isChecked = true;
-                                   toggle = true;
+                                   toggleFieldset = true;
                                    return <Detail
                                        id={item["id"]}
                                        title={item["title"]}
@@ -130,13 +137,13 @@ class App extends React.Component {
       <br/>
       <Select value={this.state.value} onChange={this.handleSelectChange}/>
       <br/>
-      <fieldset disabled={toggle}>
+      <fieldset disabled={toggleFieldset}>
         <Radio checked={this.state.isChecked} value={this.state.valueRadio} onChange={this.handleRadioChange}/>
         <br/>
         <div className="input-group mb-3">
           <Search/>
           <div className="input-group-append ">
-            <button onClick={this.handleClick} className="btn btn-primary" type="button">Искать</button>
+            <button onClick={this.handleSearchClick} className="btn btn-primary" type="button">Искать</button>
           </div>
         </div>
       </fieldset>

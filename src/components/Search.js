@@ -2,62 +2,44 @@
 import React from 'react';
 import Autosuggest from 'react-autosuggest';
 import '../styles/search.css'
+import dataDetail from '../data.js';
+export let inputProps = {};
 
-// Imagine you have a list of languages that you'd like to autosuggest.
-const languages = [
-  {
-    name: 'C',
-    year: 1972
-  },
-  {
-    name: 'C#',
-    year: 2000
-  },
-  {
-    name: 'Cc++',
-    year: 1983
-  },
-  {
-    name: 'Cclojure',
-    year: 2007
-  },
-  {
-    name: 'Сборка пружин тормоза',
-    year: 2012
-  },
-  {
-    name: 'Ограничитель сбрасывания канатов 123456789',
-    year: 2009
-  },
-  {
-    name: 'Ограничитель 2сбрасывания канатов 123456789',
-    year: 2009
-  }
-];
+function escapeRegexCharacters(str) {
+  return str.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+}
 
 // Teach Autosuggest how to calculate suggestions for any given input value.
 const getSuggestions = value => {
-  const inputValue = value.trim().toLowerCase();
-  const inputLength = inputValue.length;
+  // Формирование массива без повторений
+  var uniq = {};
+  var arrFiltered = dataDetail.filter(obj => !uniq[obj.title] && (uniq[obj.title] = true));
+  //console.log('Исходный массив', dataDetail);
+  console.log('Массив объектов без поторений', arrFiltered);
 
-  return inputLength === 0 ? [] : languages.filter(lang =>
-    lang.name.toLowerCase().slice(0, inputLength) === inputValue
-  );
+  const escapedValue = escapeRegexCharacters(value.trim());
+  if (escapedValue === '') {
+    return [];
+  }
+  const regex = new RegExp(escapedValue, 'i');
+  return arrFiltered.filter(lang => regex.test(getSuggestionValue(lang)));
 };
 
 // When suggestion is clicked, Autosuggest needs to populate the input
 // based on the clicked suggestion. Teach Autosuggest how to calculate the
 // input value for every given suggestion.
-const getSuggestionValue = suggestion => suggestion.name;
+const getSuggestionValue = suggestion => {
+  return suggestion.title;
+}
 
 // Use your imagination to render suggestions.
 const renderSuggestion = suggestion => (
   <div>
-    {suggestion.name}
+    {suggestion.title}
   </div>
 );
 
-class Search extends React.Component {
+export default class Search extends React.Component {
   constructor(props) {
     super(props);
     // Autosuggest is a controlled component.
@@ -111,11 +93,12 @@ class Search extends React.Component {
     const { value, suggestions } = this.state;
 
     // Autosuggest will pass through all these props to the input.
-    const inputProps = {
+    inputProps = {
       //placeholder: 'Начните вводить название детали ...',
       value,
       onChange: this._onChange
     };
+    //console.log(inputProps.value);
 
     // Finally, render it!
     return (
@@ -131,5 +114,3 @@ class Search extends React.Component {
     );
   }
 }
-
-export default Search

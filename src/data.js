@@ -12,7 +12,7 @@ const dataDetail = [
   {
     id: 1,
     winch: "sgr10",
-    title: "теста деталь 1",
+    title: "тест деталь 1",
     description: "Описание детали. Например: Вес: 1.3кг. Размеры: 10х2.5х53см. Материал: метал.",
     type: "SGR11",
     consist: "Редуктор",
@@ -22,7 +22,7 @@ const dataDetail = [
   {
     id: 2,
     winch: "sgr10",
-    title: "тест бдеталь 2",
+    title: "тест деталь 1",
     description: "Вентилятор охлаждение электродвигателя.",
     type: "SGR10, SGR10ЧР, SGR11, SGR11ЧР, SGR22, SGR22ЧР, SGR26, SGR31, SGR31ЧР, SGR16, SGR36",
     consist: "Тормозная система",
@@ -32,7 +32,7 @@ const dataDetail = [
   {
     id: 3,
     winch: "sgr10",
-    title: "тест вдеталь 3",
+    title: "Ограничитель сбрасывания канатов",
     description: "Описание детали. Например: Вес: 1.3кг. Размеры: 10х2.5х53см. Материал: метал.",
     type: "SGR10, SGR11, SGR16",
     consist: "Лебедка",

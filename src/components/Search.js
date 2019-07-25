@@ -49,7 +49,15 @@ export default class Search extends React.Component {
     this._onSuggestionsFetchRequested = this._onSuggestionsFetchRequested.bind(this);
     this._onSuggestionsClearRequested = this._onSuggestionsClearRequested.bind(this);
     this._renderInputComponent = this._renderInputComponent.bind(this);
+    this.clearSearch = this.clearSearch.bind(this);
   };
+
+  clearSearch() {
+    this.setState(
+      { value: '' },
+      //() => {console.log('Поиск очищен (из clearSearch в Search) :', this.state.value)}
+    )
+  }
 
   // For when a user types into the search box
   _onChange(event, { newValue }) {

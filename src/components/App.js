@@ -29,6 +29,7 @@ export default class App extends React.Component {
     this.handleSelectChange = this.handleSelectChange.bind(this);
     this.handleRadioChange = this.handleRadioChange.bind(this);
     this.handleSearchClick = this.handleSearchClick.bind(this);
+    this.searchRef = React.createRef();
   }
 
   addBasket (id){
@@ -69,12 +70,16 @@ export default class App extends React.Component {
     //this.handleRadioChange('Все запчасти');
 
     let uniq = {};
+    // формирование уникального массива для использования в компоненте Search
     arrFiltered = dataDetail.filter(obj => !uniq[obj.title] && (uniq[obj.title] = true));
     //console.log('Исходный массив', dataDetail);
     console.log('Массив объектов без поторений (из handleSelectChange в App): ', arrFiltered);
+
+    // очистка поиска детали при выборе новой лебедки
+    this.searchRef.current.clearSearch();
   }
 
-  handleRadioChange(valueRadio, inputProps) {
+  handleRadioChange(valueRadio) {
     this.setState(
       {
         valueRadio,
@@ -82,7 +87,10 @@ export default class App extends React.Component {
         isChecked: (valueRadio == 'Все запчасти') ? true : false
       },
       //() => {console.log(`handleRadioChange = valueRadio ${valueRadio}, isChecked ${this.state.isChecked} `);}
-    )
+    );
+
+    // очистка поиска детали при выборе нового блока деталей
+    this.searchRef.current.clearSearch();
   }
 
   handleSearchClick() {
@@ -147,7 +155,7 @@ export default class App extends React.Component {
         <Radio checked={this.state.isChecked} value={this.state.valueRadio} onChange={this.handleRadioChange}/>
         <br/>
         <div className="input-group mb-3">
-          <Search/>
+          <Search ref={this.searchRef} />
           <div className="input-group-append ">
             <button onClick={this.handleSearchClick} className="btn btn-primary" type="button">Искать</button>
           </div>

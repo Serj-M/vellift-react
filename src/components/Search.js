@@ -50,13 +50,24 @@ export default class Search extends React.Component {
     this._onSuggestionsClearRequested = this._onSuggestionsClearRequested.bind(this);
     this._renderInputComponent = this._renderInputComponent.bind(this);
     this.clearSearch = this.clearSearch.bind(this);
+    this.clearSearchFocus = this.clearSearchFocus.bind(this);
   };
 
   clearSearch() {
+    //this.input.focus();
     this.setState(
       { value: '' },
       //() => {console.log('Поиск очищен (из clearSearch в Search) :', this.state.value)}
     )
+  }
+
+  clearSearchFocus() {
+    this.setState(
+      { value: '' },
+      //() => {console.log('Поиск очищен (из clearSearch в Search) :', this.state.value)}
+    );
+    //this.input.focus();
+    document.getElementById('input01').focus();
   }
 
   // For when a user types into the search box
@@ -83,6 +94,7 @@ export default class Search extends React.Component {
     const { className, ...other } = inputProps;
     return (
       <input
+        id="input01"
         className="form-control"
         type="search"
         placeholder="Поиск детали"
@@ -102,17 +114,29 @@ export default class Search extends React.Component {
     };
     //console.log(inputProps.value);
 
+    let clearButton;
+    if (value.length >= 1) {
+      clearButton = (
+        <button onClick={this.clearSearchFocus} type="button" className="close">
+          <label htmlFor="input01" aria-hidden="true">&times;</label>
+        </button>
+      );
+    }
+
     // Finally, render it!
     return (
-      <Autosuggest
-        suggestions={suggestions}
-        onSuggestionsFetchRequested={this._onSuggestionsFetchRequested}
-        onSuggestionsClearRequested={this._onSuggestionsClearRequested}
-        getSuggestionValue={getSuggestionValue}
-        renderInputComponent={this._renderInputComponent}
-        renderSuggestion={renderSuggestion}
-        inputProps={inputProps}
-      />
+      <div className="mySearch">
+        <Autosuggest
+          suggestions={suggestions}
+          onSuggestionsFetchRequested={this._onSuggestionsFetchRequested}
+          onSuggestionsClearRequested={this._onSuggestionsClearRequested}
+          getSuggestionValue={getSuggestionValue}
+          renderInputComponent={this._renderInputComponent}
+          renderSuggestion={renderSuggestion}
+          inputProps={inputProps}
+        />
+        {clearButton}
+      </div>
     );
   }
 }

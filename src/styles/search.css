@@ -10,6 +10,24 @@
   }
 }
 
+.mySearch {
+  position: relative;
+}
+.mySearch input {
+  position: relative;
+  z-index: 1;
+}
+.mySearch button {
+  position: absolute;
+  z-index: 2;
+  right: 7px;
+  top: 1px;
+  height: 100%;
+  /* width: 20px;
+  text-align: center; */
+  cursor: pointer;
+}
+
 .react-autosuggest__container {
   position: relative;
 }

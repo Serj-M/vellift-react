@@ -19,7 +19,7 @@ export default class App extends React.Component {
       isChecked: true,
       value: 'All',
       valueRadio: '',
-      //valueSearch: '',
+      valueSearch: '',
       dataDetail: dataDetail,
       selectDataDetail: [],
       items: {}
@@ -53,6 +53,11 @@ export default class App extends React.Component {
   }
 
   handleSelectChange(value) {
+    // очистка поиска детали при выборе новой лебедки
+    this.searchRef.current.clearSearch();
+    inputProps.value = '';
+    //console.log('Поиск деталей (из handleSelectChange в App): ', inputProps.value);
+
     // изменение состояния списка деталей лкбедки
     this.setState({
         value,
@@ -60,7 +65,7 @@ export default class App extends React.Component {
         isChecked: true,
         selectDataDetail: this.state.dataDetail.filter(obj => {
           //console.log(obj);
-          return obj.winch == value.toLowerCase();
+          return obj.winch.toLowerCase() == value.toLowerCase();
         }),
       }
     );
@@ -68,18 +73,14 @@ export default class App extends React.Component {
 
     // изменение состояния списка запчастей для компанента Radio
     //this.handleRadioChange('Все запчасти');
-
-    let uniq = {};
-    // формирование уникального массива для использования в компоненте Search
-    arrFiltered = dataDetail.filter(obj => !uniq[obj.title] && (uniq[obj.title] = true));
-    //console.log('Исходный массив', dataDetail);
-    console.log('Массив объектов без поторений (из handleSelectChange в App): ', arrFiltered);
-
-    // очистка поиска детали при выборе новой лебедки
-    this.searchRef.current.clearSearch();
   }
 
   handleRadioChange(valueRadio) {
+    // очистка поиска детали при выборе нового блока деталей
+    this.searchRef.current.clearSearch();
+    inputProps.value = '';
+    //console.log('Поиск деталей (из handleRadioChange в App): ', inputProps.value);
+
     this.setState(
       {
         valueRadio,
@@ -88,30 +89,46 @@ export default class App extends React.Component {
       },
       //() => {console.log(`handleRadioChange = valueRadio ${valueRadio}, isChecked ${this.state.isChecked} `);}
     );
-
-    // очистка поиска детали при выборе нового блока деталей
-    this.searchRef.current.clearSearch();
   }
 
   handleSearchClick() {
-    console.log('Поиск детали (из handleSearchClick в App): ', inputProps.value);
+    this.setState({ valueSearch: inputProps.value },
+    //() => {console.log('Поиск детали (из handleSearchClick в App): ', this.state.valueSearch);}
+    );
   }
 
   render(){
     //const value = this.state.value;
     let details, toggleFieldset, renderDataDetail=[];
     console.log('Блок деталей (из render в App): ', this.state.valueRadio);
+    console.log('Поиск деталей (из render в App): ', inputProps.value);
 
     if (this.state.value != 'All') {
-      toggleFieldset = false;
+      toggleFieldset = false; // переключатель активности fieldset
+
+      // формирование массива из выбранного типа лебедки для использования в компоненте Search
+      arrFiltered = this.state.selectDataDetail;
+      console.log('Массив для поиска (из render в App): ', arrFiltered);
+
       if ( this.state.valueRadio == 'Все запчасти' ) {
-        renderDataDetail = this.state.selectDataDetail;
-        //console.log(`render renderDataDetail ${renderDataDetail} this.state.selectDataDetail ${this.state.selectDataDetail}`);
+        if (inputProps.value === '') {
+          renderDataDetail = this.state.selectDataDetail;
+          //console.log(`render renderDataDetail ${renderDataDetail} this.state.selectDataDetail ${this.state.selectDataDetail}`);
+        } else {
+          renderDataDetail = this.state.selectDataDetail.filter(obj => { return obj.title.includes(inputProps.value.trim().toLowerCase()); });
+        }
       } else {
-        renderDataDetail = this.state.selectDataDetail.filter(obj => {
-          return obj.consist == this.state.valueRadio;
-        });
-        //console.log(`render = renderDataDetail ${renderDataDetail} this.state.selectDataDetail ${this.state.selectDataDetail}`);
+        // формирование массива из выбранного блока деталей для использования в компоненте Search
+        arrFiltered = this.state.selectDataDetail.filter(obj => { return obj.consist == this.state.valueRadio; });
+        console.log('Массив для поиска (из render в App): ', arrFiltered);
+
+        if (inputProps.value === '') {
+          renderDataDetail = this.state.selectDataDetail.filter(obj => { return obj.consist == this.state.valueRadio; });
+          //console.log(`render = renderDataDetail ${renderDataDetail} this.state.selectDataDetail ${this.state.selectDataDetail}`);
+        } else {
+          let tempDataDetail = this.state.selectDataDetail.filter(obj => { return obj.consist == this.state.valueRadio; });
+          renderDataDetail = tempDataDetail.filter(obj => { return obj.title.includes(inputProps.value.trim().toLowerCase()); })
+        }
       };
       details = renderDataDetail.map(item => {
                                    return <Detail
@@ -126,6 +143,11 @@ export default class App extends React.Component {
                                      />
                                  });
     } else {
+      //let uniq = {};
+      // формирование уникального массива для использования в компоненте Search если не сработает fieldset
+      //arrFiltered = dataDetail.filter(obj => !uniq[obj.title] && (uniq[obj.title] = true));
+      //console.log('Массив для поиска (из render в App): ', arrFiltered);
+
       details = dataDetail.map(item => {
                                    this.state.isChecked = true;
                                    toggleFieldset = true;
@@ -141,7 +163,8 @@ export default class App extends React.Component {
                                      />
                                  });
     }
-    console.log('Детали для отрисовки (из render в App): ', details);
+    console.log('Детали для отрисовки (из render в App): ', details, details.length);
+    if (details.length === 0) { details = 'По Вашему запросу ничего не найдено. Уточните выбор.'};
 
     return <div>
       <Basket

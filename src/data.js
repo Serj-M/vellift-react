@@ -511,8 +511,8 @@ const dataDetail = [
   },
   {
     id: 51,
-    winch: "sgr11",
-    title: "адеталь 2",
+    winch: "SGR10HR",
+    title: "тест деталь 1",
     description: "Описание детали. Например: Вес: 1.3кг. Размеры: 10х2.5х53см. Материал: метал.",
     type: "SGR10, SGR11, SGR16",
     consist: "Тормозная система",
@@ -521,7 +521,7 @@ const dataDetail = [
   },
   {
     id: 52,
-    winch: "sgr11",
+    winch: "sgr10HR",
     title: "бдеталь 3",
     description: "Описание детали. Например: Вес: 1.3кг. Размеры: 10х2.5х53см. Материал: метал.",
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",

@@ -34,8 +34,9 @@ export default class App extends React.Component {
 
   addBasket (id){
     let items = Object.assign({}, this.state.items);
-    items[id] = (id in items) ? items[id]+1 : 1;
-    //console.log(items);
+    //items[id] = (id in items) ? items[id]+1 : 1;
+    items[id] = 1;
+    console.log(items);
     this.setState({ items: items });
    }
 
@@ -115,7 +116,8 @@ export default class App extends React.Component {
           renderDataDetail = this.state.selectDataDetail;
           //console.log(`render renderDataDetail ${renderDataDetail} this.state.selectDataDetail ${this.state.selectDataDetail}`);
         } else {
-          renderDataDetail = this.state.selectDataDetail.filter(obj => { return obj.title.includes(inputProps.value.trim().toLowerCase()); });
+          renderDataDetail = this.state.selectDataDetail.filter(obj => { return obj.title.toLowerCase().includes(inputProps.value.trim().toLowerCase()); });
+          //console.log(`render renderDataDetail ${renderDataDetail} this.state.selectDataDetail ${this.state.selectDataDetail}`);
         }
       } else {
         // формирование массива из выбранного блока деталей для использования в компоненте Search
@@ -127,7 +129,7 @@ export default class App extends React.Component {
           //console.log(`render = renderDataDetail ${renderDataDetail} this.state.selectDataDetail ${this.state.selectDataDetail}`);
         } else {
           let tempDataDetail = this.state.selectDataDetail.filter(obj => { return obj.consist == this.state.valueRadio; });
-          renderDataDetail = tempDataDetail.filter(obj => { return obj.title.includes(inputProps.value.trim().toLowerCase()); })
+          renderDataDetail = tempDataDetail.filter(obj => { return obj.title.toLowerCase().includes(inputProps.value.trim().toLowerCase()); })
         }
       };
       details = renderDataDetail.map(item => {

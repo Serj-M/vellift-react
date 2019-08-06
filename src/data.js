@@ -45,7 +45,7 @@ const dataDetail = [
     title: "тест гдеталь 4",
     description: "Вентилятор охлаждение электродвигателя",
     type: "SGR10, SGR10ЧР, SGR11, SGR11ЧР, SGR22, SGR22ЧР, SGR26, SGR31, SGR31ЧР, SGR16, SGR36",
-    consist: "",
+    consist: "Лебедка",
     designation: "0411.138SGR.01.044",
     img: "./img_details/0411.138SGR.01.044.jpg"
   },

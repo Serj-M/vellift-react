@@ -15,21 +15,32 @@
 
 #root .basket {
   position: fixed;
-  z-index: 1;
-  background: rgba(255, 255, 255, .8);
-  bottom: 0;
-  right: 0;
-  margin: 20px;
-  border: 1px solid rgba(0, 0, 0, .1);
+  z-index: 3;
+  /* background: rgb(24, 193, 57); */
+  bottom: 25px;
+  border-left: 0;
+  /* margin: 20px; */
+  /* border: 1px solid rgba(0, 0, 0, .1); */
 }
 
-#root .basket-item, .basket h3 {
+/* #root .basket-item, .basket h3 {
   padding: 5px 10px;
+} */
+#root .plusminus {
+  /* color: blue; */
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 1.3em;
+  width: 800;
 }
 
-#root .basket-item span,
-#root .basket-item a {
-  padding: 0 7px
+#root .basket-item span {
+  padding: 0 2px
+}
+
+.form-control-sm {
+  padding: 0rem 0.15rem !important;
+  border-radius: inherit !important;
 }
 
 /*.card {

@@ -29,6 +29,9 @@ export default class App extends React.Component {
     this.handleSelectChange = this.handleSelectChange.bind(this);
     this.handleRadioChange = this.handleRadioChange.bind(this);
     this.handleSearchClick = this.handleSearchClick.bind(this);
+    this.handleBasketPlus = this.handleBasketPlus.bind(this);
+    this.handleBasketMinus = this.handleBasketMinus.bind(this);
+    this.handleBasketInput = this.handleBasketInput.bind(this);
     this.searchRef = React.createRef();
   }
 
@@ -36,9 +39,57 @@ export default class App extends React.Component {
     let items = Object.assign({}, this.state.items);
     //items[id] = (id in items) ? items[id]+1 : 1;
     items[id] = 1;
-    console.log(items);
+    console.log('addBasket в App.js', items);
     this.setState({ items: items });
-   }
+  }
+
+  handleBasketInput (id, value) {
+    let items = Object.assign({}, this.state.items);
+    //items[id] = (id in items) ? +value : 1;
+    if (id in items) {
+      //items[id] = ((!isNaN(value)) && (value != 0)) ? +value : '';
+      if ((!isNaN(value)) && (value != 0)) {
+        if (value >= 99) {
+          items[id] = 99;
+        } else {
+          items[id] = +value;
+        }
+      } else {
+        items[id] = '';
+      }
+    } else {
+      items[id] = 1;
+    }
+    console.log('handleBasketInput в App.js', items, value);
+    this.setState({ items: items });
+  }
+
+  handleBasketPlus (id) {
+    let items = Object.assign({}, this.state.items);
+    //items[id] = (id in items) ? items[id]+1 : 1;
+    if (id in items) {
+      if (items[id] != '') {
+        if (items[id] >= 99) {
+          items[id] = 99;
+        } else {
+          items[id] = items[id]+1;
+        }
+      } else {
+        items[id] = 1;
+      }
+    }
+    console.log('handleBasketPlus в App.js', items);
+    this.setState({ items: items });
+  }
+
+  handleBasketMinus (id) {
+    let items = Object.assign({}, this.state.items);
+    if (id in items) {
+      items[id] = ((items[id] !== 1) && (items[id] != '')) ? items[id]-1 : 1;
+    }
+    console.log('handleBasketMinus в App.js', items);
+    this.setState({ items: items });
+  }
 
   removeBasket (id){
     //let items = this.state.items.slice(0), result = [];
@@ -172,6 +223,9 @@ export default class App extends React.Component {
       <Basket
         items={this.state.items}
         handleRemoveBasket={this.removeBasket}
+        handleBasketPlus={this.handleBasketPlus}
+        handleBasketMinus={this.handleBasketMinus}
+        handleBasketInput={this.handleBasketInput}
       />
       <br/>
       <Select value={this.state.value} onChange={this.handleSelectChange}/>

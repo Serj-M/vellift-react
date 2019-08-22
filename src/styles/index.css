@@ -13,19 +13,40 @@
   margin-bottom: 15px;
 }
 
-#root .basket {
+/* #root .basket {
   position: fixed;
-  z-index: 3;
-  /* background: rgb(24, 193, 57); */
+  z-index: 1;
   bottom: 25px;
   border-left: 0;
+} */
+
+#root .basket {
+  position: fixed;
+  z-index: 1;
+  /* background-color: rgb(255, 192, 0) !important;
+  border-color: rgb(255, 192, 0) !important; */
+  bottom: 0px;
+  border-right: 0px;
+  color: black;
   /* margin: 20px; */
   /* border: 1px solid rgba(0, 0, 0, .1); */
+}
+.basket-div .btn-primary, .basket-div .btn-primary:active, .basket-div .btn-primary:visited {
+    background-color: rgb(255, 192, 0) !important;
+    border-color: rgb(255, 192, 0) !important;
+}
+.basket-div .btn-primary.hover, .basket-div .primary:hover {
+    background-color: rgb(255, 192, 100) !important;
+    border-color: rgb(255, 192, 100) !important;
+}
+.basket-div .btn-primary.focus, .basket-div .btn-primary:focus {
+    box-shadow: 0 0 0 0.2rem rgba(255, 210, 80, 0.5) !important;
 }
 
 /* #root .basket-item, .basket h3 {
   padding: 5px 10px;
 } */
+
 #root .plusminus {
   /* color: blue; */
   text-decoration: none;
@@ -34,9 +55,30 @@
   width: 800;
 }
 
+#root .removebasket {
+  color: red;
+  text-decoration: none;
+  float: right;
+  font-size: 1.3rem;
+  font-weight: 600;
+  /* line-height: 1; */
+}
+
 #root .basket-item span {
   padding: 0 2px
 }
+
+.mycollapse {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+/* .mycollapse.hide {
+  display: none;
+} */
 
 .form-control-sm {
   padding: 0rem 0.15rem !important;
@@ -48,8 +90,8 @@
 }*/
 
 .row {
-  margin-right: 0px;
-  margin-left: 0px;
+  margin-right: 0px !important;
+  margin-left: 0px !important;
 }
 
 .btn-primary, .btn-primary:active, .btn-primary:visited {
@@ -57,8 +99,8 @@
     border-color: #004D40 !important;
 }
 .btn-primary:hover {
-    background-color: #087966 !important;
-    border-color: #087966 !important;
+    background-color: #087966;
+    border-color: #087966;
 }
 .btn-primary.focus, .btn-primary:focus {
     box-shadow: 0 0 0 0.2rem rgb(8, 121, 102, 0.5) !important;
@@ -66,6 +108,6 @@
 
 @media screen and (max-width: 600px) {
   .custom-control-inline {
-    display: block;
+    display: block !important;
   }
 }

@@ -30,7 +30,7 @@ export default class Detail extends React.Component {
     return <div className={"card md-3 "+(this.state.selected ? "detail-selected" : "detail-default")} >
       <div className="row no-gutters">
         <div className="col-md-5">
-          <a href={this.props.img}><img src={this.props.img} className="card-img" alt=""/></a>
+          <img src={this.props.img} className="card-img" alt=""/>
         </div>
         <div className="col-md-7">
           <div className="card-body">

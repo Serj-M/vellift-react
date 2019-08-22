@@ -118,7 +118,7 @@ export default class Search extends React.Component {
     if (value.length >= 1) {
       clearButton = (
         <button onClick={this.clearSearchFocus} type="button" className="close">
-          <label htmlFor="input01" aria-hidden="true">&times;</label>
+          <label htmlFor="input01" aria-hidden="true" style={{cursor: 'pointer'}}>&times;</label>
         </button>
       );
     }

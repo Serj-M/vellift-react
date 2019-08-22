@@ -17,7 +17,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "Редуктор",
     designation: "0411.138SGR.01.041",
-    img: "./img_details/0411.138SGR.01.041.jpg"
+    img: "/img_details/0411.138SGR.01.041.jpg"
   },
   {
     id: 2,
@@ -27,7 +27,7 @@ const dataDetail = [
     type: "SGR10, SGR10ЧР, SGR11, SGR11ЧР, SGR22, SGR22ЧР, SGR26, SGR31, SGR31ЧР, SGR16, SGR36",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.042",
-    img: "./img_details/0411.138SGR.01.042.jpg"
+    img: "/img_details/0411.138SGR.01.042.jpg"
   },
   {
     id: 3,
@@ -37,7 +37,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "Лебедка",
     designation: "0411.138SGR.01.043",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 4,
@@ -47,7 +47,7 @@ const dataDetail = [
     type: "SGR10, SGR10ЧР, SGR11, SGR11ЧР, SGR22, SGR22ЧР, SGR26, SGR31, SGR31ЧР, SGR16, SGR36",
     consist: "Лебедка",
     designation: "0411.138SGR.01.044",
-    img: "./img_details/0411.138SGR.01.044.jpg"
+    img: "/img_details/0411.138SGR.01.044.jpg"
   },
   {
     id: 5,
@@ -57,7 +57,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "",
     designation: "0411.138SGR.01.045",
-    img: "./img_details/0411.138SGR.01.045.jpg"
+    img: "/img_details/0411.138SGR.01.045.jpg"
   },
   {
     id: 6,
@@ -67,7 +67,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "Редуктор",
     designation: "0411.138SGR.01.046",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 7,
@@ -77,7 +77,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "",
     designation: "0411.138SGR.01.047",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 8,
@@ -87,7 +87,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "Редуктор",
     designation: "0411.138SGR.01.048",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 9,
@@ -97,7 +97,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.049",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 10,
@@ -107,7 +107,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "Двигатель",
     designation: "0411.138SGR.01.050",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 11,
@@ -117,7 +117,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.051",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 12,
@@ -127,7 +127,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "",
     designation: "0411.138SGR.01.052",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 13,
@@ -137,7 +137,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "Редуктор",
     designation: "0411.138SGR.01.053",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 14,
@@ -147,7 +147,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "",
     designation: "0411.138SGR.01.054",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 15,
@@ -157,7 +157,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "Редуктор",
     designation: "0411.138SGR.01.055",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 16,
@@ -167,7 +167,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.056",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 17,
@@ -177,7 +177,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "Двигатель",
     designation: "0411.138SGR.01.057",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 18,
@@ -187,7 +187,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.058",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 19,
@@ -197,7 +197,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "",
     designation: "0411.138SGR.01.059",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 20,
@@ -207,7 +207,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "Редуктор",
     designation: "0411.138SGR.01.060",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 21,
@@ -217,7 +217,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "",
     designation: "0411.138SGR.01.061",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 22,
@@ -227,7 +227,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "Редуктор",
     designation: "0411.138SGR.01.062",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 23,
@@ -237,7 +237,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.063",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 24,
@@ -247,7 +247,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "Двигатель",
     designation: "0411.138SGR.01.064",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 25,
@@ -257,7 +257,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.065",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 26,
@@ -267,7 +267,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "",
     designation: "0411.138SGR.01.066",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 27,
@@ -277,7 +277,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "Редуктор",
     designation: "0411.138SGR.01.067",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 28,
@@ -287,7 +287,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "",
     designation: "0411.138SGR.01.068",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 29,
@@ -297,7 +297,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "Редуктор",
     designation: "0411.138SGR.01.069",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 30,
@@ -307,7 +307,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.070",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 31,
@@ -317,7 +317,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "Двигатель",
     designation: "0411.138SGR.01.071",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 32,
@@ -327,7 +327,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.072",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 33,
@@ -337,7 +337,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "",
     designation: "0411.138SGR.01.073",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 34,
@@ -347,7 +347,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "Редуктор",
     designation: "0411.138SGR.01.074",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 35,
@@ -357,7 +357,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "",
     designation: "0411.138SGR.01.075",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 36,
@@ -367,7 +367,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "Редуктор",
     designation: "0411.138SGR.01.076",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 37,
@@ -377,7 +377,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.077",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 38,
@@ -387,7 +387,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "Двигатель",
     designation: "0411.138SGR.01.078",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 39,
@@ -397,7 +397,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.079",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 40,
@@ -407,7 +407,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "",
     designation: "0411.138SGR.01.080",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 41,
@@ -417,7 +417,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "Редуктор",
     designation: "0411.138SGR.01.081",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 42,
@@ -427,7 +427,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "",
     designation: "0411.138SGR.01.082",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 43,
@@ -437,7 +437,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "Редуктор",
     designation: "0411.138SGR.01.083",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 44,
@@ -447,7 +447,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.084",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 45,
@@ -457,7 +457,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "Двигатель",
     designation: "0411.138SGR.01.085",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 46,
@@ -467,7 +467,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.086",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 47,
@@ -477,7 +477,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "",
     designation: "0411.138SGR.01.087",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 48,
@@ -487,7 +487,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "Редуктор",
     designation: "0411.138SGR.01.088",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 49,
@@ -497,7 +497,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "",
     designation: "0411.138SGR.01.089",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 50,
@@ -507,7 +507,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "Редуктор",
     designation: "0411.138SGR.01.090",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 51,
@@ -517,7 +517,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.091",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 52,
@@ -527,7 +527,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "Двигатель",
     designation: "0411.138SGR.01.092",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 53,
@@ -537,7 +537,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.093",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 54,
@@ -547,7 +547,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "",
     designation: "0411.138SGR.01.094",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 55,
@@ -557,7 +557,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "Редуктор",
     designation: "0411.138SGR.01.095",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 56,
@@ -567,7 +567,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "",
     designation: "0411.138SGR.01.096",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 57,
@@ -577,7 +577,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "Редуктор",
     designation: "0411.138SGR.01.097",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 58,
@@ -587,7 +587,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.098",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 59,
@@ -597,7 +597,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "Двигатель",
     designation: "0411.138SGR.01.099",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 60,
@@ -607,7 +607,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.100",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 61,
@@ -617,7 +617,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "",
     designation: "0411.138SGR.01.101",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 62,
@@ -627,7 +627,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "Редуктор",
     designation: "0411.138SGR.01.102",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 63,
@@ -637,7 +637,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "",
     designation: "0411.138SGR.01.103",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 64,
@@ -647,7 +647,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "Редуктор",
     designation: "0411.138SGR.01.104",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 65,
@@ -657,7 +657,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.105",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 66,
@@ -667,7 +667,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "Двигатель",
     designation: "0411.138SGR.01.106",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 67,
@@ -677,7 +677,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.107",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 68,
@@ -687,7 +687,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "",
     designation: "0411.138SGR.01.108",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 69,
@@ -697,7 +697,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "Редуктор",
     designation: "0411.138SGR.01.109",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 70,
@@ -707,7 +707,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "",
     designation: "0411.138SGR.01.110",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 71,
@@ -717,7 +717,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "Редуктор",
     designation: "0411.138SGR.01.111",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 72,
@@ -727,7 +727,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.112",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 73,
@@ -737,7 +737,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "Двигатель",
     designation: "0411.138SGR.01.113",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 74,
@@ -747,7 +747,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.114",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 75,
@@ -757,7 +757,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "",
     designation: "0411.138SGR.01.115",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 76,
@@ -767,7 +767,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "Редуктор",
     designation: "0411.138SGR.01.116",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 77,
@@ -777,7 +777,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "",
     designation: "0411.138SGR.01.117",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 78,
@@ -787,7 +787,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "Редуктор",
     designation: "0411.138SGR.01.118",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 79,
@@ -797,7 +797,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.119",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 80,
@@ -807,7 +807,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "Двигатель",
     designation: "0411.138SGR.01.120",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 81,
@@ -817,7 +817,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.121",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 82,
@@ -827,7 +827,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "",
     designation: "0411.138SGR.01.122",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 83,
@@ -837,7 +837,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "Редуктор",
     designation: "0411.138SGR.01.123",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 84,
@@ -847,7 +847,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "",
     designation: "0411.138SGR.01.124",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 85,
@@ -857,7 +857,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "Редуктор",
     designation: "0411.138SGR.01.125",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 86,
@@ -867,7 +867,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.126",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 87,
@@ -877,7 +877,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "Двигатель",
     designation: "0411.138SGR.01.127",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 88,
@@ -887,7 +887,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.128",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 89,
@@ -897,7 +897,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "",
     designation: "0411.138SGR.01.129",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 90,
@@ -907,7 +907,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "Редуктор",
     designation: "0411.138SGR.01.130",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 91,
@@ -917,7 +917,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "",
     designation: "0411.138SGR.01.131",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 92,
@@ -927,7 +927,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "Редуктор",
     designation: "0411.138SGR.01.132",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 93,
@@ -937,7 +937,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.133",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 94,
@@ -947,7 +947,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "Двигатель",
     designation: "0411.138SGR.01.134",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 95,
@@ -957,7 +957,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.135",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 96,
@@ -967,7 +967,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "",
     designation: "0411.138SGR.01.136",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 97,
@@ -977,7 +977,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "Редуктор",
     designation: "0411.138SGR.01.137",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 98,
@@ -987,7 +987,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "",
     designation: "0411.138SGR.01.138",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 99,
@@ -997,7 +997,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "Редуктор",
     designation: "0411.138SGR.01.139",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 100,
@@ -1007,7 +1007,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.140",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 101,
@@ -1017,7 +1017,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "Двигатель",
     designation: "0411.138SGR.01.141",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 102,
@@ -1027,7 +1027,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.142",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 103,
@@ -1037,7 +1037,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "",
     designation: "0411.138SGR.01.143",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 104,
@@ -1047,7 +1047,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "Редуктор",
     designation: "0411.138SGR.01.144",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 105,
@@ -1057,7 +1057,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "",
     designation: "0411.138SGR.01.145",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 106,
@@ -1067,7 +1067,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "Редуктор",
     designation: "0411.138SGR.01.146",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 107,
@@ -1077,7 +1077,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.147",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 108,
@@ -1087,7 +1087,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "Двигатель",
     designation: "0411.138SGR.01.148",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 109,
@@ -1097,7 +1097,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.149",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 110,
@@ -1107,7 +1107,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "",
     designation: "0411.138SGR.01.150",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 111,
@@ -1117,7 +1117,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "Редуктор",
     designation: "0411.138SGR.01.151",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 112,
@@ -1127,7 +1127,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "",
     designation: "0411.138SGR.01.152",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 113,
@@ -1137,7 +1137,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "Редуктор",
     designation: "0411.138SGR.01.153",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 114,
@@ -1147,7 +1147,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.154",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 115,
@@ -1157,7 +1157,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "Двигатель",
     designation: "0411.138SGR.01.155",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 116,
@@ -1167,7 +1167,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.156",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 117,
@@ -1177,7 +1177,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "",
     designation: "0411.138SGR.01.157",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 118,
@@ -1187,7 +1187,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "Редуктор",
     designation: "0411.138SGR.01.158",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 119,
@@ -1197,7 +1197,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "",
     designation: "0411.138SGR.01.159",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 120,
@@ -1207,7 +1207,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "Редуктор",
     designation: "0411.138SGR.01.160",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 121,
@@ -1217,7 +1217,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.161",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 122,
@@ -1227,7 +1227,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "Двигатель",
     designation: "0411.138SGR.01.162",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 123,
@@ -1237,7 +1237,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.163",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 124,
@@ -1247,7 +1247,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "",
     designation: "0411.138SGR.01.164",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 125,
@@ -1257,7 +1257,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "Редуктор",
     designation: "0411.138SGR.01.165",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 126,
@@ -1267,7 +1267,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "",
     designation: "0411.138SGR.01.166",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 127,
@@ -1277,7 +1277,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "Редуктор",
     designation: "0411.138SGR.01.167",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 128,
@@ -1287,7 +1287,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.168",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 129,
@@ -1297,7 +1297,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "Двигатель",
     designation: "0411.138SGR.01.169",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 130,
@@ -1307,7 +1307,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.170",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 131,
@@ -1317,7 +1317,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "",
     designation: "0411.138SGR.01.171",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 132,
@@ -1327,7 +1327,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "Редуктор",
     designation: "0411.138SGR.01.172",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 133,
@@ -1337,7 +1337,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "",
     designation: "0411.138SGR.01.173",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 134,
@@ -1347,7 +1347,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "Редуктор",
     designation: "0411.138SGR.01.174",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 135,
@@ -1357,7 +1357,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.175",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 136,
@@ -1367,7 +1367,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "Двигатель",
     designation: "0411.138SGR.01.176",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 137,
@@ -1377,7 +1377,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.177",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 138,
@@ -1387,7 +1387,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "",
     designation: "0411.138SGR.01.178",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 139,
@@ -1397,7 +1397,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "Редуктор",
     designation: "0411.138SGR.01.179",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 140,
@@ -1407,7 +1407,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "",
     designation: "0411.138SGR.01.180",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 141,
@@ -1417,7 +1417,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "Редуктор",
     designation: "0411.138SGR.01.181",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 142,
@@ -1427,7 +1427,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.182",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 143,
@@ -1437,7 +1437,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "Двигатель",
     designation: "0411.138SGR.01.183",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 144,
@@ -1447,7 +1447,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.184",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 145,
@@ -1457,7 +1457,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "",
     designation: "0411.138SGR.01.185",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 146,
@@ -1467,7 +1467,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "Редуктор",
     designation: "0411.138SGR.01.186",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 147,
@@ -1477,7 +1477,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "",
     designation: "0411.138SGR.01.187",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 148,
@@ -1487,7 +1487,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "Редуктор",
     designation: "0411.138SGR.01.188",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 149,
@@ -1497,7 +1497,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.189",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 150,
@@ -1507,7 +1507,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "Двигатель",
     designation: "0411.138SGR.01.190",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 151,
@@ -1517,7 +1517,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.191",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 152,
@@ -1527,7 +1527,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "",
     designation: "0411.138SGR.01.192",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 153,
@@ -1537,7 +1537,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "Редуктор",
     designation: "0411.138SGR.01.193",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 154,
@@ -1547,7 +1547,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "",
     designation: "0411.138SGR.01.194",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 155,
@@ -1557,7 +1557,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "Редуктор",
     designation: "0411.138SGR.01.195",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 156,
@@ -1567,7 +1567,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.196",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 157,
@@ -1577,7 +1577,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "Двигатель",
     designation: "0411.138SGR.01.197",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 158,
@@ -1587,7 +1587,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.198",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 159,
@@ -1597,7 +1597,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "",
     designation: "0411.138SGR.01.199",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 160,
@@ -1607,7 +1607,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "Редуктор",
     designation: "0411.138SGR.01.200",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 161,
@@ -1617,7 +1617,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "",
     designation: "0411.138SGR.01.201",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 162,
@@ -1627,7 +1627,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "Редуктор",
     designation: "0411.138SGR.01.202",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 163,
@@ -1637,7 +1637,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.203",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 164,
@@ -1647,7 +1647,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "Двигатель",
     designation: "0411.138SGR.01.204",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 165,
@@ -1657,7 +1657,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.205",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 166,
@@ -1667,7 +1667,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "",
     designation: "0411.138SGR.01.206",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 167,
@@ -1677,7 +1677,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "Редуктор",
     designation: "0411.138SGR.01.207",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 168,
@@ -1687,7 +1687,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "",
     designation: "0411.138SGR.01.208",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 169,
@@ -1697,7 +1697,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "Редуктор",
     designation: "0411.138SGR.01.209",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 170,
@@ -1707,7 +1707,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.210",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 171,
@@ -1717,7 +1717,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "Двигатель",
     designation: "0411.138SGR.01.211",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 172,
@@ -1727,7 +1727,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.212",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 173,
@@ -1737,7 +1737,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "",
     designation: "0411.138SGR.01.213",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 174,
@@ -1747,7 +1747,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "Редуктор",
     designation: "0411.138SGR.01.214",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 175,
@@ -1757,7 +1757,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "",
     designation: "0411.138SGR.01.215",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 176,
@@ -1767,7 +1767,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "Редуктор",
     designation: "0411.138SGR.01.216",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 177,
@@ -1777,7 +1777,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.217",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 178,
@@ -1787,7 +1787,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "Двигатель",
     designation: "0411.138SGR.01.218",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 179,
@@ -1797,7 +1797,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.219",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 180,
@@ -1807,7 +1807,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "",
     designation: "0411.138SGR.01.220",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 181,
@@ -1817,7 +1817,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "Редуктор",
     designation: "0411.138SGR.01.221",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 182,
@@ -1827,7 +1827,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "",
     designation: "0411.138SGR.01.222",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 183,
@@ -1837,7 +1837,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "Редуктор",
     designation: "0411.138SGR.01.223",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 184,
@@ -1847,7 +1847,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.224",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 185,
@@ -1857,7 +1857,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "Двигатель",
     designation: "0411.138SGR.01.225",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 186,
@@ -1867,7 +1867,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.226",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 187,
@@ -1877,7 +1877,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "",
     designation: "0411.138SGR.01.227",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 188,
@@ -1887,7 +1887,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "Редуктор",
     designation: "0411.138SGR.01.228",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 189,
@@ -1897,7 +1897,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "",
     designation: "0411.138SGR.01.229",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 190,
@@ -1907,7 +1907,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "Редуктор",
     designation: "0411.138SGR.01.230",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 191,
@@ -1917,7 +1917,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.231",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 192,
@@ -1927,7 +1927,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "Двигатель",
     designation: "0411.138SGR.01.232",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 193,
@@ -1937,7 +1937,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.233",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 194,
@@ -1947,7 +1947,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "",
     designation: "0411.138SGR.01.234",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 195,
@@ -1957,7 +1957,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "Редуктор",
     designation: "0411.138SGR.01.235",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 196,
@@ -1967,7 +1967,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "",
     designation: "0411.138SGR.01.236",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 197,
@@ -1977,7 +1977,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "Редуктор",
     designation: "0411.138SGR.01.237",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 198,
@@ -1987,7 +1987,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.238",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 199,
@@ -1997,7 +1997,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "Двигатель",
     designation: "0411.138SGR.01.239",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 200,
@@ -2007,7 +2007,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.240",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 201,
@@ -2017,7 +2017,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "",
     designation: "0411.138SGR.01.241",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 202,
@@ -2027,7 +2027,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "Редуктор",
     designation: "0411.138SGR.01.242",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 203,
@@ -2037,7 +2037,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "",
     designation: "0411.138SGR.01.243",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 204,
@@ -2047,7 +2047,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "Редуктор",
     designation: "0411.138SGR.01.244",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 205,
@@ -2057,7 +2057,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.245",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 206,
@@ -2067,7 +2067,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "Двигатель",
     designation: "0411.138SGR.01.246",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 207,
@@ -2077,7 +2077,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.247",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 208,
@@ -2087,7 +2087,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "",
     designation: "0411.138SGR.01.248",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 209,
@@ -2097,7 +2097,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "Редуктор",
     designation: "0411.138SGR.01.249",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 210,
@@ -2107,7 +2107,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "",
     designation: "0411.138SGR.01.250",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 211,
@@ -2117,7 +2117,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "Редуктор",
     designation: "0411.138SGR.01.251",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 212,
@@ -2127,7 +2127,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.252",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 213,
@@ -2137,7 +2137,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "Двигатель",
     designation: "0411.138SGR.01.253",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 214,
@@ -2147,7 +2147,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.254",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 215,
@@ -2157,7 +2157,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "",
     designation: "0411.138SGR.01.255",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 216,
@@ -2167,7 +2167,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "Редуктор",
     designation: "0411.138SGR.01.256",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 217,
@@ -2177,7 +2177,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "",
     designation: "0411.138SGR.01.257",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 218,
@@ -2187,7 +2187,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "Редуктор",
     designation: "0411.138SGR.01.258",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 219,
@@ -2197,7 +2197,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.259",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 220,
@@ -2207,7 +2207,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "Двигатель",
     designation: "0411.138SGR.01.260",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 221,
@@ -2217,7 +2217,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.261",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 222,
@@ -2227,7 +2227,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "",
     designation: "0411.138SGR.01.262",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 223,
@@ -2237,7 +2237,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "Редуктор",
     designation: "0411.138SGR.01.263",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 224,
@@ -2247,7 +2247,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "",
     designation: "0411.138SGR.01.264",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 225,
@@ -2257,7 +2257,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "Редуктор",
     designation: "0411.138SGR.01.265",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 226,
@@ -2267,7 +2267,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.266",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 227,
@@ -2277,7 +2277,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "Двигатель",
     designation: "0411.138SGR.01.267",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 228,
@@ -2287,7 +2287,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.268",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 229,
@@ -2297,7 +2297,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "",
     designation: "0411.138SGR.01.269",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 230,
@@ -2307,7 +2307,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "Редуктор",
     designation: "0411.138SGR.01.270",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 231,
@@ -2317,7 +2317,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "",
     designation: "0411.138SGR.01.271",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 232,
@@ -2327,7 +2327,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "Редуктор",
     designation: "0411.138SGR.01.272",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 233,
@@ -2337,7 +2337,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.273",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 234,
@@ -2347,7 +2347,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "Двигатель",
     designation: "0411.138SGR.01.274",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 235,
@@ -2357,7 +2357,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.275",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 236,
@@ -2367,7 +2367,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "",
     designation: "0411.138SGR.01.276",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 237,
@@ -2377,7 +2377,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "Редуктор",
     designation: "0411.138SGR.01.277",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 238,
@@ -2387,7 +2387,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "",
     designation: "0411.138SGR.01.278",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 239,
@@ -2397,7 +2397,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "Редуктор",
     designation: "0411.138SGR.01.279",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 240,
@@ -2407,7 +2407,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.280",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 241,
@@ -2417,7 +2417,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "Двигатель",
     designation: "0411.138SGR.01.281",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 242,
@@ -2427,7 +2427,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.282",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 243,
@@ -2437,7 +2437,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "",
     designation: "0411.138SGR.01.283",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 244,
@@ -2447,7 +2447,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "Редуктор",
     designation: "0411.138SGR.01.284",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 245,
@@ -2457,7 +2457,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "",
     designation: "0411.138SGR.01.285",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 246,
@@ -2467,7 +2467,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "Редуктор",
     designation: "0411.138SGR.01.286",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 247,
@@ -2477,7 +2477,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.287",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 248,
@@ -2487,7 +2487,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "Двигатель",
     designation: "0411.138SGR.01.288",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 249,
@@ -2497,7 +2497,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.289",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 250,
@@ -2507,7 +2507,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "",
     designation: "0411.138SGR.01.290",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 251,
@@ -2517,7 +2517,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "Редуктор",
     designation: "0411.138SGR.01.291",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 252,
@@ -2527,7 +2527,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "",
     designation: "0411.138SGR.01.292",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 253,
@@ -2537,7 +2537,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "Редуктор",
     designation: "0411.138SGR.01.293",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 254,
@@ -2547,7 +2547,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.294",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 255,
@@ -2557,7 +2557,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "Двигатель",
     designation: "0411.138SGR.01.295",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 256,
@@ -2567,7 +2567,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.296",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 257,
@@ -2577,7 +2577,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "",
     designation: "0411.138SGR.01.297",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 258,
@@ -2587,7 +2587,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "Редуктор",
     designation: "0411.138SGR.01.298",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 259,
@@ -2597,7 +2597,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "",
     designation: "0411.138SGR.01.299",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 260,
@@ -2607,7 +2607,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "Редуктор",
     designation: "0411.138SGR.01.300",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 261,
@@ -2617,7 +2617,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.301",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 262,
@@ -2627,7 +2627,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "Двигатель",
     designation: "0411.138SGR.01.302",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 263,
@@ -2637,7 +2637,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.303",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 264,
@@ -2647,7 +2647,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "",
     designation: "0411.138SGR.01.304",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 265,
@@ -2657,7 +2657,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "Редуктор",
     designation: "0411.138SGR.01.305",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 266,
@@ -2667,7 +2667,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "",
     designation: "0411.138SGR.01.306",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 267,
@@ -2677,7 +2677,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "Редуктор",
     designation: "0411.138SGR.01.307",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 268,
@@ -2687,7 +2687,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.308",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 269,
@@ -2697,7 +2697,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "Двигатель",
     designation: "0411.138SGR.01.309",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 270,
@@ -2707,7 +2707,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.310",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 271,
@@ -2717,7 +2717,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "",
     designation: "0411.138SGR.01.311",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 272,
@@ -2727,7 +2727,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "Редуктор",
     designation: "0411.138SGR.01.312",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 273,
@@ -2737,7 +2737,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "",
     designation: "0411.138SGR.01.313",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 274,
@@ -2747,7 +2747,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "Редуктор",
     designation: "0411.138SGR.01.314",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 275,
@@ -2757,7 +2757,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.315",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 276,
@@ -2767,7 +2767,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "Двигатель",
     designation: "0411.138SGR.01.316",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 277,
@@ -2777,7 +2777,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.317",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 278,
@@ -2787,7 +2787,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "",
     designation: "0411.138SGR.01.318",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 279,
@@ -2797,7 +2797,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "Редуктор",
     designation: "0411.138SGR.01.319",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 280,
@@ -2807,7 +2807,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "",
     designation: "0411.138SGR.01.320",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 281,
@@ -2817,7 +2817,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "Редуктор",
     designation: "0411.138SGR.01.321",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 282,
@@ -2827,7 +2827,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.322",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 283,
@@ -2837,7 +2837,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "Двигатель",
     designation: "0411.138SGR.01.323",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 284,
@@ -2847,7 +2847,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.324",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 285,
@@ -2857,7 +2857,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "",
     designation: "0411.138SGR.01.325",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 286,
@@ -2867,7 +2867,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "Редуктор",
     designation: "0411.138SGR.01.326",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 287,
@@ -2877,7 +2877,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "",
     designation: "0411.138SGR.01.327",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 288,
@@ -2887,7 +2887,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "Редуктор",
     designation: "0411.138SGR.01.328",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 289,
@@ -2897,7 +2897,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.329",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 290,
@@ -2907,7 +2907,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "Двигатель",
     designation: "0411.138SGR.01.330",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 291,
@@ -2917,7 +2917,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.331",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 292,
@@ -2927,7 +2927,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "",
     designation: "0411.138SGR.01.332",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 293,
@@ -2937,7 +2937,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "Редуктор",
     designation: "0411.138SGR.01.333",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 294,
@@ -2947,7 +2947,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "",
     designation: "0411.138SGR.01.334",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 295,
@@ -2957,7 +2957,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "Редуктор",
     designation: "0411.138SGR.01.335",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 296,
@@ -2967,7 +2967,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.336",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 297,
@@ -2977,7 +2977,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "Двигатель",
     designation: "0411.138SGR.01.337",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 298,
@@ -2987,7 +2987,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.338",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 299,
@@ -2997,7 +2997,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "",
     designation: "0411.138SGR.01.339",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 300,
@@ -3007,7 +3007,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "Редуктор",
     designation: "0411.138SGR.01.340",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 301,
@@ -3017,7 +3017,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "",
     designation: "0411.138SGR.01.341",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 302,
@@ -3027,7 +3027,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "Редуктор",
     designation: "0411.138SGR.01.342",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 303,
@@ -3037,7 +3037,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.343",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 304,
@@ -3047,7 +3047,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "Двигатель",
     designation: "0411.138SGR.01.344",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 305,
@@ -3057,7 +3057,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.345",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 306,
@@ -3067,7 +3067,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "",
     designation: "0411.138SGR.01.346",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 307,
@@ -3077,7 +3077,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "Редуктор",
     designation: "0411.138SGR.01.347",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 308,
@@ -3087,7 +3087,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "",
     designation: "0411.138SGR.01.348",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 309,
@@ -3097,7 +3097,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "Редуктор",
     designation: "0411.138SGR.01.349",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 310,
@@ -3107,7 +3107,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.350",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 311,
@@ -3117,7 +3117,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "Двигатель",
     designation: "0411.138SGR.01.351",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 312,
@@ -3127,7 +3127,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.352",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 313,
@@ -3137,7 +3137,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "",
     designation: "0411.138SGR.01.353",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 314,
@@ -3147,7 +3147,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "Редуктор",
     designation: "0411.138SGR.01.354",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 315,
@@ -3157,7 +3157,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "",
     designation: "0411.138SGR.01.355",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 316,
@@ -3167,7 +3167,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "Редуктор",
     designation: "0411.138SGR.01.356",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 317,
@@ -3177,7 +3177,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.357",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 318,
@@ -3187,7 +3187,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "Двигатель",
     designation: "0411.138SGR.01.358",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 319,
@@ -3197,7 +3197,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.359",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 320,
@@ -3207,7 +3207,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "",
     designation: "0411.138SGR.01.360",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 321,
@@ -3217,7 +3217,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "Редуктор",
     designation: "0411.138SGR.01.361",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 322,
@@ -3227,7 +3227,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "",
     designation: "0411.138SGR.01.362",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 323,
@@ -3237,7 +3237,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "Редуктор",
     designation: "0411.138SGR.01.363",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 324,
@@ -3247,7 +3247,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.364",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 325,
@@ -3257,7 +3257,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "Двигатель",
     designation: "0411.138SGR.01.365",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 326,
@@ -3267,7 +3267,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.366",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 327,
@@ -3277,7 +3277,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "",
     designation: "0411.138SGR.01.367",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 328,
@@ -3287,7 +3287,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "Редуктор",
     designation: "0411.138SGR.01.368",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 329,
@@ -3297,7 +3297,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "",
     designation: "0411.138SGR.01.369",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 330,
@@ -3307,7 +3307,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "Редуктор",
     designation: "0411.138SGR.01.370",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 331,
@@ -3317,7 +3317,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.371",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 332,
@@ -3327,7 +3327,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "Двигатель",
     designation: "0411.138SGR.01.372",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 333,
@@ -3337,7 +3337,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.373",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 334,
@@ -3347,7 +3347,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "",
     designation: "0411.138SGR.01.374",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 335,
@@ -3357,7 +3357,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "Редуктор",
     designation: "0411.138SGR.01.375",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 336,
@@ -3367,7 +3367,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "",
     designation: "0411.138SGR.01.376",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 337,
@@ -3377,7 +3377,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "Редуктор",
     designation: "0411.138SGR.01.377",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 338,
@@ -3387,7 +3387,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.378",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 339,
@@ -3397,7 +3397,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "Двигатель",
     designation: "0411.138SGR.01.379",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 340,
@@ -3407,7 +3407,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.380",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 341,
@@ -3417,7 +3417,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "",
     designation: "0411.138SGR.01.381",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 342,
@@ -3427,7 +3427,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "Редуктор",
     designation: "0411.138SGR.01.382",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 343,
@@ -3437,7 +3437,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "",
     designation: "0411.138SGR.01.383",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 344,
@@ -3447,7 +3447,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "Редуктор",
     designation: "0411.138SGR.01.384",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 345,
@@ -3457,7 +3457,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.385",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 346,
@@ -3467,7 +3467,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "Двигатель",
     designation: "0411.138SGR.01.386",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 347,
@@ -3477,7 +3477,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.387",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 348,
@@ -3487,7 +3487,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "",
     designation: "0411.138SGR.01.388",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 349,
@@ -3497,7 +3497,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "Редуктор",
     designation: "0411.138SGR.01.389",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 350,
@@ -3507,7 +3507,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "",
     designation: "0411.138SGR.01.390",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 351,
@@ -3517,7 +3517,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "Редуктор",
     designation: "0411.138SGR.01.391",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 352,
@@ -3527,7 +3527,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.392",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 353,
@@ -3537,7 +3537,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "Двигатель",
     designation: "0411.138SGR.01.393",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 354,
@@ -3547,7 +3547,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.394",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 355,
@@ -3557,7 +3557,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "",
     designation: "0411.138SGR.01.395",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 356,
@@ -3567,7 +3567,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "Редуктор",
     designation: "0411.138SGR.01.396",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 357,
@@ -3577,7 +3577,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "",
     designation: "0411.138SGR.01.397",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 358,
@@ -3587,7 +3587,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "Редуктор",
     designation: "0411.138SGR.01.398",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 359,
@@ -3597,7 +3597,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.399",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 360,
@@ -3607,7 +3607,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "Двигатель",
     designation: "0411.138SGR.01.400",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 361,
@@ -3617,7 +3617,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.401",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 362,
@@ -3627,7 +3627,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "",
     designation: "0411.138SGR.01.402",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 363,
@@ -3637,7 +3637,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "Редуктор",
     designation: "0411.138SGR.01.403",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 364,
@@ -3647,7 +3647,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "",
     designation: "0411.138SGR.01.404",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 365,
@@ -3657,7 +3657,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "Редуктор",
     designation: "0411.138SGR.01.405",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 366,
@@ -3667,7 +3667,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.406",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 367,
@@ -3677,7 +3677,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "Двигатель",
     designation: "0411.138SGR.01.407",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 368,
@@ -3687,7 +3687,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.408",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 369,
@@ -3697,7 +3697,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "",
     designation: "0411.138SGR.01.409",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 370,
@@ -3707,7 +3707,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "Редуктор",
     designation: "0411.138SGR.01.410",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 371,
@@ -3717,7 +3717,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "",
     designation: "0411.138SGR.01.411",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 372,
@@ -3727,7 +3727,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "Редуктор",
     designation: "0411.138SGR.01.412",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 373,
@@ -3737,7 +3737,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.413",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 374,
@@ -3747,7 +3747,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "Двигатель",
     designation: "0411.138SGR.01.414",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 375,
@@ -3757,7 +3757,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.415",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 376,
@@ -3767,7 +3767,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "",
     designation: "0411.138SGR.01.416",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 377,
@@ -3777,7 +3777,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "Редуктор",
     designation: "0411.138SGR.01.417",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 378,
@@ -3787,7 +3787,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "",
     designation: "0411.138SGR.01.418",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 379,
@@ -3797,7 +3797,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "Редуктор",
     designation: "0411.138SGR.01.419",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 380,
@@ -3807,7 +3807,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.420",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 381,
@@ -3817,7 +3817,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "Двигатель",
     designation: "0411.138SGR.01.421",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 382,
@@ -3827,7 +3827,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.422",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 383,
@@ -3837,7 +3837,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "",
     designation: "0411.138SGR.01.423",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 384,
@@ -3847,7 +3847,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "Редуктор",
     designation: "0411.138SGR.01.424",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 385,
@@ -3857,7 +3857,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "",
     designation: "0411.138SGR.01.425",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 386,
@@ -3867,7 +3867,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "Редуктор",
     designation: "0411.138SGR.01.426",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 387,
@@ -3877,7 +3877,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.427",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 388,
@@ -3887,7 +3887,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "Двигатель",
     designation: "0411.138SGR.01.428",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 389,
@@ -3897,7 +3897,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.429",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 390,
@@ -3907,7 +3907,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "",
     designation: "0411.138SGR.01.430",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 391,
@@ -3917,7 +3917,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "Редуктор",
     designation: "0411.138SGR.01.431",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 392,
@@ -3927,7 +3927,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "",
     designation: "0411.138SGR.01.432",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 393,
@@ -3937,7 +3937,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "Редуктор",
     designation: "0411.138SGR.01.433",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 394,
@@ -3947,7 +3947,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.434",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 395,
@@ -3957,7 +3957,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "Двигатель",
     designation: "0411.138SGR.01.435",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 396,
@@ -3967,7 +3967,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.436",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 397,
@@ -3977,7 +3977,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "",
     designation: "0411.138SGR.01.437",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 398,
@@ -3987,7 +3987,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "Редуктор",
     designation: "0411.138SGR.01.438",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 399,
@@ -3997,7 +3997,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "",
     designation: "0411.138SGR.01.439",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 400,
@@ -4007,7 +4007,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "Редуктор",
     designation: "0411.138SGR.01.440",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 401,
@@ -4017,7 +4017,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.441",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 402,
@@ -4027,7 +4027,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "Двигатель",
     designation: "0411.138SGR.01.442",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 403,
@@ -4037,7 +4037,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.443",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 404,
@@ -4047,7 +4047,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "",
     designation: "0411.138SGR.01.444",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 405,
@@ -4057,7 +4057,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "Редуктор",
     designation: "0411.138SGR.01.445",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 406,
@@ -4067,7 +4067,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "",
     designation: "0411.138SGR.01.446",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 407,
@@ -4077,7 +4077,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "Редуктор",
     designation: "0411.138SGR.01.447",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 408,
@@ -4087,7 +4087,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.448",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 409,
@@ -4097,7 +4097,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "Двигатель",
     designation: "0411.138SGR.01.449",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 410,
@@ -4107,7 +4107,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.450",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 411,
@@ -4117,7 +4117,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "",
     designation: "0411.138SGR.01.451",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 412,
@@ -4127,7 +4127,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "Редуктор",
     designation: "0411.138SGR.01.452",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 413,
@@ -4137,7 +4137,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "",
     designation: "0411.138SGR.01.453",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 414,
@@ -4147,7 +4147,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "Редуктор",
     designation: "0411.138SGR.01.454",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 415,
@@ -4157,7 +4157,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.455",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 416,
@@ -4167,7 +4167,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "Двигатель",
     designation: "0411.138SGR.01.456",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 417,
@@ -4177,7 +4177,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.457",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 418,
@@ -4187,7 +4187,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "",
     designation: "0411.138SGR.01.458",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 419,
@@ -4197,7 +4197,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "Редуктор",
     designation: "0411.138SGR.01.459",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 420,
@@ -4207,7 +4207,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "",
     designation: "0411.138SGR.01.460",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 421,
@@ -4217,7 +4217,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "Редуктор",
     designation: "0411.138SGR.01.461",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 422,
@@ -4227,7 +4227,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.462",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 423,
@@ -4237,7 +4237,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "Двигатель",
     designation: "0411.138SGR.01.463",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 424,
@@ -4247,7 +4247,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.464",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 425,
@@ -4257,7 +4257,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "",
     designation: "0411.138SGR.01.465",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 426,
@@ -4267,7 +4267,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "Редуктор",
     designation: "0411.138SGR.01.466",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 427,
@@ -4277,7 +4277,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "",
     designation: "0411.138SGR.01.467",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 428,
@@ -4287,7 +4287,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "Редуктор",
     designation: "0411.138SGR.01.468",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 429,
@@ -4297,7 +4297,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.469",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 430,
@@ -4307,7 +4307,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "Двигатель",
     designation: "0411.138SGR.01.470",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 431,
@@ -4317,7 +4317,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.471",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 432,
@@ -4327,7 +4327,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "",
     designation: "0411.138SGR.01.472",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 433,
@@ -4337,7 +4337,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "Редуктор",
     designation: "0411.138SGR.01.473",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 434,
@@ -4347,7 +4347,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "",
     designation: "0411.138SGR.01.474",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 435,
@@ -4357,7 +4357,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "Редуктор",
     designation: "0411.138SGR.01.475",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 436,
@@ -4367,7 +4367,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.476",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 437,
@@ -4377,7 +4377,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "Двигатель",
     designation: "0411.138SGR.01.477",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 438,
@@ -4387,7 +4387,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.478",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 439,
@@ -4397,7 +4397,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "",
     designation: "0411.138SGR.01.479",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 440,
@@ -4407,7 +4407,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "Редуктор",
     designation: "0411.138SGR.01.480",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 441,
@@ -4417,7 +4417,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "",
     designation: "0411.138SGR.01.481",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 442,
@@ -4427,7 +4427,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "Редуктор",
     designation: "0411.138SGR.01.482",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 443,
@@ -4437,7 +4437,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.483",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 444,
@@ -4447,7 +4447,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "Двигатель",
     designation: "0411.138SGR.01.484",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 445,
@@ -4457,7 +4457,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.485",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 446,
@@ -4467,7 +4467,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "",
     designation: "0411.138SGR.01.486",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 447,
@@ -4477,7 +4477,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "Редуктор",
     designation: "0411.138SGR.01.487",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 448,
@@ -4487,7 +4487,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "",
     designation: "0411.138SGR.01.488",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 449,
@@ -4497,7 +4497,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "Редуктор",
     designation: "0411.138SGR.01.489",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 450,
@@ -4507,7 +4507,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.490",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 451,
@@ -4517,7 +4517,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "Двигатель",
     designation: "0411.138SGR.01.491",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 452,
@@ -4527,7 +4527,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.492",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 453,
@@ -4537,7 +4537,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "",
     designation: "0411.138SGR.01.493",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 454,
@@ -4547,7 +4547,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "Редуктор",
     designation: "0411.138SGR.01.494",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 455,
@@ -4557,7 +4557,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "",
     designation: "0411.138SGR.01.495",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 456,
@@ -4567,7 +4567,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "Редуктор",
     designation: "0411.138SGR.01.496",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 457,
@@ -4577,7 +4577,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.497",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 458,
@@ -4587,7 +4587,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "Двигатель",
     designation: "0411.138SGR.01.498",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 459,
@@ -4597,7 +4597,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.499",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 460,
@@ -4607,7 +4607,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "",
     designation: "0411.138SGR.01.500",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 461,
@@ -4617,7 +4617,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "Редуктор",
     designation: "0411.138SGR.01.501",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 462,
@@ -4627,7 +4627,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "",
     designation: "0411.138SGR.01.502",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 463,
@@ -4637,7 +4637,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "Редуктор",
     designation: "0411.138SGR.01.503",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 464,
@@ -4647,7 +4647,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.504",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 465,
@@ -4657,7 +4657,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "Двигатель",
     designation: "0411.138SGR.01.505",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 466,
@@ -4667,7 +4667,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.506",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 467,
@@ -4677,7 +4677,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "",
     designation: "0411.138SGR.01.507",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 468,
@@ -4687,7 +4687,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "Редуктор",
     designation: "0411.138SGR.01.508",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 469,
@@ -4697,7 +4697,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "",
     designation: "0411.138SGR.01.509",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 470,
@@ -4707,7 +4707,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "Редуктор",
     designation: "0411.138SGR.01.510",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 471,
@@ -4717,7 +4717,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.511",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 472,
@@ -4727,7 +4727,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "Двигатель",
     designation: "0411.138SGR.01.512",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 473,
@@ -4737,7 +4737,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.513",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 474,
@@ -4747,7 +4747,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "",
     designation: "0411.138SGR.01.514",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 475,
@@ -4757,7 +4757,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "Редуктор",
     designation: "0411.138SGR.01.515",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 476,
@@ -4767,7 +4767,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "",
     designation: "0411.138SGR.01.516",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 477,
@@ -4777,7 +4777,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "Редуктор",
     designation: "0411.138SGR.01.517",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 478,
@@ -4787,7 +4787,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.518",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 479,
@@ -4797,7 +4797,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "Двигатель",
     designation: "0411.138SGR.01.519",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 480,
@@ -4807,7 +4807,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.520",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 481,
@@ -4817,7 +4817,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "",
     designation: "0411.138SGR.01.521",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 482,
@@ -4827,7 +4827,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "Редуктор",
     designation: "0411.138SGR.01.522",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 483,
@@ -4837,7 +4837,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "",
     designation: "0411.138SGR.01.523",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 484,
@@ -4847,7 +4847,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "Редуктор",
     designation: "0411.138SGR.01.524",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 485,
@@ -4857,7 +4857,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.525",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 486,
@@ -4867,7 +4867,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "Двигатель",
     designation: "0411.138SGR.01.526",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 487,
@@ -4877,7 +4877,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.527",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 488,
@@ -4887,7 +4887,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "",
     designation: "0411.138SGR.01.528",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 489,
@@ -4897,7 +4897,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "Редуктор",
     designation: "0411.138SGR.01.529",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 490,
@@ -4907,7 +4907,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "",
     designation: "0411.138SGR.01.530",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 491,
@@ -4917,7 +4917,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "Редуктор",
     designation: "0411.138SGR.01.531",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 492,
@@ -4927,7 +4927,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.532",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 493,
@@ -4937,7 +4937,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "Двигатель",
     designation: "0411.138SGR.01.533",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 494,
@@ -4947,7 +4947,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.534",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 495,
@@ -4957,7 +4957,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "",
     designation: "0411.138SGR.01.535",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 496,
@@ -4967,7 +4967,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "Редуктор",
     designation: "0411.138SGR.01.536",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 497,
@@ -4977,7 +4977,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "",
     designation: "0411.138SGR.01.537",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 498,
@@ -4987,7 +4987,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "Редуктор",
     designation: "0411.138SGR.01.538",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 499,
@@ -4997,7 +4997,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.539",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 500,
@@ -5007,7 +5007,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "Двигатель",
     designation: "0411.138SGR.01.540",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 501,
@@ -5017,7 +5017,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.541",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 502,
@@ -5027,7 +5027,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "",
     designation: "0411.138SGR.01.542",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 503,
@@ -5037,7 +5037,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "Редуктор",
     designation: "0411.138SGR.01.543",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 504,
@@ -5047,7 +5047,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "",
     designation: "0411.138SGR.01.544",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 505,
@@ -5057,7 +5057,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "Редуктор",
     designation: "0411.138SGR.01.545",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 506,
@@ -5067,7 +5067,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.546",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 507,
@@ -5077,7 +5077,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "Двигатель",
     designation: "0411.138SGR.01.547",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 508,
@@ -5087,7 +5087,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.548",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 509,
@@ -5097,7 +5097,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "",
     designation: "0411.138SGR.01.549",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 510,
@@ -5107,7 +5107,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "Редуктор",
     designation: "0411.138SGR.01.550",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 511,
@@ -5117,7 +5117,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "",
     designation: "0411.138SGR.01.551",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 512,
@@ -5127,7 +5127,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "Редуктор",
     designation: "0411.138SGR.01.552",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 513,
@@ -5137,7 +5137,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.553",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 514,
@@ -5147,7 +5147,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "Двигатель",
     designation: "0411.138SGR.01.554",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 515,
@@ -5157,7 +5157,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.555",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 516,
@@ -5167,7 +5167,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "",
     designation: "0411.138SGR.01.556",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 517,
@@ -5177,7 +5177,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "Редуктор",
     designation: "0411.138SGR.01.557",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 518,
@@ -5187,7 +5187,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "",
     designation: "0411.138SGR.01.558",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 519,
@@ -5197,7 +5197,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "Редуктор",
     designation: "0411.138SGR.01.559",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 520,
@@ -5207,7 +5207,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.560",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 521,
@@ -5217,7 +5217,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "Двигатель",
     designation: "0411.138SGR.01.561",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 522,
@@ -5227,7 +5227,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.562",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 523,
@@ -5237,7 +5237,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "",
     designation: "0411.138SGR.01.563",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 524,
@@ -5247,7 +5247,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "Редуктор",
     designation: "0411.138SGR.01.564",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 525,
@@ -5257,7 +5257,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "",
     designation: "0411.138SGR.01.565",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 526,
@@ -5267,7 +5267,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "Редуктор",
     designation: "0411.138SGR.01.566",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 527,
@@ -5277,7 +5277,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.567",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 528,
@@ -5287,7 +5287,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "Двигатель",
     designation: "0411.138SGR.01.568",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 529,
@@ -5297,7 +5297,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.569",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 530,
@@ -5307,7 +5307,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "",
     designation: "0411.138SGR.01.570",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 531,
@@ -5317,7 +5317,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "Редуктор",
     designation: "0411.138SGR.01.571",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 532,
@@ -5327,7 +5327,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "",
     designation: "0411.138SGR.01.572",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 533,
@@ -5337,7 +5337,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "Редуктор",
     designation: "0411.138SGR.01.573",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 534,
@@ -5347,7 +5347,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.574",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 535,
@@ -5357,7 +5357,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "Двигатель",
     designation: "0411.138SGR.01.575",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 536,
@@ -5367,7 +5367,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.576",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 537,
@@ -5377,7 +5377,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "",
     designation: "0411.138SGR.01.577",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 538,
@@ -5387,7 +5387,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "Редуктор",
     designation: "0411.138SGR.01.578",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 539,
@@ -5397,7 +5397,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "",
     designation: "0411.138SGR.01.579",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 540,
@@ -5407,7 +5407,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "Редуктор",
     designation: "0411.138SGR.01.580",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 541,
@@ -5417,7 +5417,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.581",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 542,
@@ -5427,7 +5427,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "Двигатель",
     designation: "0411.138SGR.01.582",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 543,
@@ -5437,7 +5437,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.583",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 544,
@@ -5447,7 +5447,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "",
     designation: "0411.138SGR.01.584",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 545,
@@ -5457,7 +5457,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "Редуктор",
     designation: "0411.138SGR.01.585",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 546,
@@ -5467,7 +5467,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "",
     designation: "0411.138SGR.01.586",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 547,
@@ -5477,7 +5477,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "Редуктор",
     designation: "0411.138SGR.01.587",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 548,
@@ -5487,7 +5487,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.588",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 549,
@@ -5497,7 +5497,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "Двигатель",
     designation: "0411.138SGR.01.589",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 550,
@@ -5507,7 +5507,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.590",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 551,
@@ -5517,7 +5517,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "",
     designation: "0411.138SGR.01.591",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 552,
@@ -5527,7 +5527,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "Редуктор",
     designation: "0411.138SGR.01.592",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 553,
@@ -5537,7 +5537,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "",
     designation: "0411.138SGR.01.593",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 554,
@@ -5547,7 +5547,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "Редуктор",
     designation: "0411.138SGR.01.594",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 555,
@@ -5557,7 +5557,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.595",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 556,
@@ -5567,7 +5567,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "Двигатель",
     designation: "0411.138SGR.01.596",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 557,
@@ -5577,7 +5577,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.597",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 558,
@@ -5587,7 +5587,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "",
     designation: "0411.138SGR.01.598",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 559,
@@ -5597,7 +5597,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "Редуктор",
     designation: "0411.138SGR.01.599",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 560,
@@ -5607,7 +5607,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "",
     designation: "0411.138SGR.01.600",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 561,
@@ -5617,7 +5617,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "Редуктор",
     designation: "0411.138SGR.01.601",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 562,
@@ -5627,7 +5627,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.602",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 563,
@@ -5637,7 +5637,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "Двигатель",
     designation: "0411.138SGR.01.603",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 564,
@@ -5647,7 +5647,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.604",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 565,
@@ -5657,7 +5657,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "",
     designation: "0411.138SGR.01.605",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 566,
@@ -5667,7 +5667,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "Редуктор",
     designation: "0411.138SGR.01.606",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 567,
@@ -5677,7 +5677,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "",
     designation: "0411.138SGR.01.607",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 568,
@@ -5687,7 +5687,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "Редуктор",
     designation: "0411.138SGR.01.608",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 569,
@@ -5697,7 +5697,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.609",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 570,
@@ -5707,7 +5707,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "Двигатель",
     designation: "0411.138SGR.01.610",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 571,
@@ -5717,7 +5717,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.611",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 572,
@@ -5727,7 +5727,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "",
     designation: "0411.138SGR.01.612",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 573,
@@ -5737,7 +5737,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "Редуктор",
     designation: "0411.138SGR.01.613",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 574,
@@ -5747,7 +5747,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "",
     designation: "0411.138SGR.01.614",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 575,
@@ -5757,7 +5757,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "Редуктор",
     designation: "0411.138SGR.01.615",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 576,
@@ -5767,7 +5767,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.616",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 577,
@@ -5777,7 +5777,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "Двигатель",
     designation: "0411.138SGR.01.617",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 578,
@@ -5787,7 +5787,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.618",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 579,
@@ -5797,7 +5797,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "",
     designation: "0411.138SGR.01.619",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 580,
@@ -5807,7 +5807,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "Редуктор",
     designation: "0411.138SGR.01.620",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 581,
@@ -5817,7 +5817,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "",
     designation: "0411.138SGR.01.621",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 582,
@@ -5827,7 +5827,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "Редуктор",
     designation: "0411.138SGR.01.622",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 583,
@@ -5837,7 +5837,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.623",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 584,
@@ -5847,7 +5847,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "Двигатель",
     designation: "0411.138SGR.01.624",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 585,
@@ -5857,7 +5857,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.625",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 586,
@@ -5867,7 +5867,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "",
     designation: "0411.138SGR.01.626",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 587,
@@ -5877,7 +5877,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "Редуктор",
     designation: "0411.138SGR.01.627",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 588,
@@ -5887,7 +5887,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "",
     designation: "0411.138SGR.01.628",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 589,
@@ -5897,7 +5897,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "Редуктор",
     designation: "0411.138SGR.01.629",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 590,
@@ -5907,7 +5907,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.630",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 591,
@@ -5917,7 +5917,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "Двигатель",
     designation: "0411.138SGR.01.631",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 592,
@@ -5927,7 +5927,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.632",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 593,
@@ -5937,7 +5937,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "",
     designation: "0411.138SGR.01.633",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 594,
@@ -5947,7 +5947,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "Редуктор",
     designation: "0411.138SGR.01.634",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 595,
@@ -5957,7 +5957,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "",
     designation: "0411.138SGR.01.635",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 596,
@@ -5967,7 +5967,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "Редуктор",
     designation: "0411.138SGR.01.636",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 597,
@@ -5977,7 +5977,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.637",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 598,
@@ -5987,7 +5987,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "Двигатель",
     designation: "0411.138SGR.01.638",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 599,
@@ -5997,7 +5997,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.639",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 600,
@@ -6007,7 +6007,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "",
     designation: "0411.138SGR.01.640",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 601,
@@ -6017,7 +6017,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "Редуктор",
     designation: "0411.138SGR.01.641",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 602,
@@ -6027,7 +6027,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "",
     designation: "0411.138SGR.01.642",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 603,
@@ -6037,7 +6037,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "Редуктор",
     designation: "0411.138SGR.01.643",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 604,
@@ -6047,7 +6047,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.644",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 605,
@@ -6057,7 +6057,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "Двигатель",
     designation: "0411.138SGR.01.645",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 606,
@@ -6067,7 +6067,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.646",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 607,
@@ -6077,7 +6077,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "",
     designation: "0411.138SGR.01.647",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 608,
@@ -6087,7 +6087,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "Редуктор",
     designation: "0411.138SGR.01.648",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 609,
@@ -6097,7 +6097,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "",
     designation: "0411.138SGR.01.649",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 610,
@@ -6107,7 +6107,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "Редуктор",
     designation: "0411.138SGR.01.650",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 611,
@@ -6117,7 +6117,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.651",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 612,
@@ -6127,7 +6127,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "Двигатель",
     designation: "0411.138SGR.01.652",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 613,
@@ -6137,7 +6137,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.653",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 614,
@@ -6147,7 +6147,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "",
     designation: "0411.138SGR.01.654",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 615,
@@ -6157,7 +6157,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "Редуктор",
     designation: "0411.138SGR.01.655",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 616,
@@ -6167,7 +6167,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "",
     designation: "0411.138SGR.01.656",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 617,
@@ -6177,7 +6177,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "Редуктор",
     designation: "0411.138SGR.01.657",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 618,
@@ -6187,7 +6187,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.658",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 619,
@@ -6197,7 +6197,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "Двигатель",
     designation: "0411.138SGR.01.659",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 620,
@@ -6207,7 +6207,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.660",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 621,
@@ -6217,7 +6217,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "",
     designation: "0411.138SGR.01.661",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 622,
@@ -6227,7 +6227,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "Редуктор",
     designation: "0411.138SGR.01.662",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 623,
@@ -6237,7 +6237,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "",
     designation: "0411.138SGR.01.663",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 624,
@@ -6247,7 +6247,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "Редуктор",
     designation: "0411.138SGR.01.664",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 625,
@@ -6257,7 +6257,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.665",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 626,
@@ -6267,7 +6267,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "Двигатель",
     designation: "0411.138SGR.01.666",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 627,
@@ -6277,7 +6277,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.667",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 628,
@@ -6287,7 +6287,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "",
     designation: "0411.138SGR.01.668",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 629,
@@ -6297,7 +6297,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "Редуктор",
     designation: "0411.138SGR.01.669",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 630,
@@ -6307,7 +6307,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "",
     designation: "0411.138SGR.01.670",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 631,
@@ -6317,7 +6317,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "Редуктор",
     designation: "0411.138SGR.01.671",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 632,
@@ -6327,7 +6327,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.672",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 633,
@@ -6337,7 +6337,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "Двигатель",
     designation: "0411.138SGR.01.673",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 634,
@@ -6347,7 +6347,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.674",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 635,
@@ -6357,7 +6357,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "",
     designation: "0411.138SGR.01.675",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 636,
@@ -6367,7 +6367,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "Редуктор",
     designation: "0411.138SGR.01.676",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 637,
@@ -6377,7 +6377,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "",
     designation: "0411.138SGR.01.677",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 638,
@@ -6387,7 +6387,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "Редуктор",
     designation: "0411.138SGR.01.678",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 639,
@@ -6397,7 +6397,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.679",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 640,
@@ -6407,7 +6407,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "Двигатель",
     designation: "0411.138SGR.01.680",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 641,
@@ -6417,7 +6417,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.681",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 642,
@@ -6427,7 +6427,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "",
     designation: "0411.138SGR.01.682",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 643,
@@ -6437,7 +6437,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "Редуктор",
     designation: "0411.138SGR.01.683",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 644,
@@ -6447,7 +6447,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "",
     designation: "0411.138SGR.01.684",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 645,
@@ -6457,7 +6457,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "Редуктор",
     designation: "0411.138SGR.01.685",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 646,
@@ -6467,7 +6467,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.686",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 647,
@@ -6477,7 +6477,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "Двигатель",
     designation: "0411.138SGR.01.687",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 648,
@@ -6487,7 +6487,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.688",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 649,
@@ -6497,7 +6497,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "",
     designation: "0411.138SGR.01.689",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 650,
@@ -6507,7 +6507,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "Редуктор",
     designation: "0411.138SGR.01.690",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 651,
@@ -6517,7 +6517,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "",
     designation: "0411.138SGR.01.691",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 652,
@@ -6527,7 +6527,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "Редуктор",
     designation: "0411.138SGR.01.692",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 653,
@@ -6537,7 +6537,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.693",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 654,
@@ -6547,7 +6547,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "Двигатель",
     designation: "0411.138SGR.01.694",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 655,
@@ -6557,7 +6557,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.695",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 656,
@@ -6567,7 +6567,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "",
     designation: "0411.138SGR.01.696",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 657,
@@ -6577,7 +6577,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "Редуктор",
     designation: "0411.138SGR.01.697",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 658,
@@ -6587,7 +6587,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "",
     designation: "0411.138SGR.01.698",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 659,
@@ -6597,7 +6597,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "Редуктор",
     designation: "0411.138SGR.01.699",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 660,
@@ -6607,7 +6607,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.700",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 661,
@@ -6617,7 +6617,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "Двигатель",
     designation: "0411.138SGR.01.701",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 662,
@@ -6627,7 +6627,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.702",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 663,
@@ -6637,7 +6637,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "",
     designation: "0411.138SGR.01.703",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 664,
@@ -6647,7 +6647,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "Редуктор",
     designation: "0411.138SGR.01.704",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 665,
@@ -6657,7 +6657,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "",
     designation: "0411.138SGR.01.705",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 666,
@@ -6667,7 +6667,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "Редуктор",
     designation: "0411.138SGR.01.706",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 667,
@@ -6677,7 +6677,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.707",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 668,
@@ -6687,7 +6687,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "Двигатель",
     designation: "0411.138SGR.01.708",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 669,
@@ -6697,7 +6697,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.709",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 670,
@@ -6707,7 +6707,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "",
     designation: "0411.138SGR.01.710",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 671,
@@ -6717,7 +6717,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "Редуктор",
     designation: "0411.138SGR.01.711",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 672,
@@ -6727,7 +6727,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "",
     designation: "0411.138SGR.01.712",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 673,
@@ -6737,7 +6737,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "Редуктор",
     designation: "0411.138SGR.01.713",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 674,
@@ -6747,7 +6747,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.714",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 675,
@@ -6757,7 +6757,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "Двигатель",
     designation: "0411.138SGR.01.715",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 676,
@@ -6767,7 +6767,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.716",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 677,
@@ -6777,7 +6777,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "",
     designation: "0411.138SGR.01.717",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 678,
@@ -6787,7 +6787,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "Редуктор",
     designation: "0411.138SGR.01.718",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 679,
@@ -6797,7 +6797,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "",
     designation: "0411.138SGR.01.719",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 680,
@@ -6807,7 +6807,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "Редуктор",
     designation: "0411.138SGR.01.720",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 681,
@@ -6817,7 +6817,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.721",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 682,
@@ -6827,7 +6827,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "Двигатель",
     designation: "0411.138SGR.01.722",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 683,
@@ -6837,7 +6837,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.723",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 684,
@@ -6847,7 +6847,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "",
     designation: "0411.138SGR.01.724",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 685,
@@ -6857,7 +6857,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "Редуктор",
     designation: "0411.138SGR.01.725",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 686,
@@ -6867,7 +6867,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "",
     designation: "0411.138SGR.01.726",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 687,
@@ -6877,7 +6877,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "Редуктор",
     designation: "0411.138SGR.01.727",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 688,
@@ -6887,7 +6887,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.728",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 689,
@@ -6897,7 +6897,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "Двигатель",
     designation: "0411.138SGR.01.729",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 690,
@@ -6907,7 +6907,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.730",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 691,
@@ -6917,7 +6917,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "",
     designation: "0411.138SGR.01.731",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 692,
@@ -6927,7 +6927,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "Редуктор",
     designation: "0411.138SGR.01.732",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 693,
@@ -6937,7 +6937,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "",
     designation: "0411.138SGR.01.733",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 694,
@@ -6947,7 +6947,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "Редуктор",
     designation: "0411.138SGR.01.734",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 695,
@@ -6957,7 +6957,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.735",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 696,
@@ -6967,7 +6967,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "Двигатель",
     designation: "0411.138SGR.01.736",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 697,
@@ -6977,7 +6977,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.737",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 698,
@@ -6987,7 +6987,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "",
     designation: "0411.138SGR.01.738",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 699,
@@ -6997,7 +6997,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "Редуктор",
     designation: "0411.138SGR.01.739",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 700,
@@ -7007,7 +7007,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "",
     designation: "0411.138SGR.01.740",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 701,
@@ -7017,7 +7017,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "Редуктор",
     designation: "0411.138SGR.01.741",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 702,
@@ -7027,7 +7027,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.742",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 703,
@@ -7037,7 +7037,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "Двигатель",
     designation: "0411.138SGR.01.743",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 704,
@@ -7047,7 +7047,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.744",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 705,
@@ -7057,7 +7057,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "",
     designation: "0411.138SGR.01.745",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 706,
@@ -7067,7 +7067,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "Редуктор",
     designation: "0411.138SGR.01.746",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 707,
@@ -7077,7 +7077,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "",
     designation: "0411.138SGR.01.747",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 708,
@@ -7087,7 +7087,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "Редуктор",
     designation: "0411.138SGR.01.748",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 709,
@@ -7097,7 +7097,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.749",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 710,
@@ -7107,7 +7107,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "Двигатель",
     designation: "0411.138SGR.01.750",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 711,
@@ -7117,7 +7117,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.751",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 712,
@@ -7127,7 +7127,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "",
     designation: "0411.138SGR.01.752",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 713,
@@ -7137,7 +7137,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "Редуктор",
     designation: "0411.138SGR.01.753",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 714,
@@ -7147,7 +7147,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "",
     designation: "0411.138SGR.01.754",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 715,
@@ -7157,7 +7157,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "Редуктор",
     designation: "0411.138SGR.01.755",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 716,
@@ -7167,7 +7167,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.756",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 717,
@@ -7177,7 +7177,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "Двигатель",
     designation: "0411.138SGR.01.757",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 718,
@@ -7187,7 +7187,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.758",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 719,
@@ -7197,7 +7197,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "",
     designation: "0411.138SGR.01.759",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 720,
@@ -7207,7 +7207,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "Редуктор",
     designation: "0411.138SGR.01.760",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 721,
@@ -7217,7 +7217,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "",
     designation: "0411.138SGR.01.761",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 722,
@@ -7227,7 +7227,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "Редуктор",
     designation: "0411.138SGR.01.762",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 723,
@@ -7237,7 +7237,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.763",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 724,
@@ -7247,7 +7247,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "Двигатель",
     designation: "0411.138SGR.01.764",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 725,
@@ -7257,7 +7257,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.765",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 726,
@@ -7267,7 +7267,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "",
     designation: "0411.138SGR.01.766",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 727,
@@ -7277,7 +7277,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "Редуктор",
     designation: "0411.138SGR.01.767",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 728,
@@ -7287,7 +7287,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "",
     designation: "0411.138SGR.01.768",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 729,
@@ -7297,7 +7297,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "Редуктор",
     designation: "0411.138SGR.01.769",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 730,
@@ -7307,7 +7307,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.770",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 731,
@@ -7317,7 +7317,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "Двигатель",
     designation: "0411.138SGR.01.771",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 732,
@@ -7327,7 +7327,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.772",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 733,
@@ -7337,7 +7337,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "",
     designation: "0411.138SGR.01.773",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 734,
@@ -7347,7 +7347,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "Редуктор",
     designation: "0411.138SGR.01.774",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 735,
@@ -7357,7 +7357,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "",
     designation: "0411.138SGR.01.775",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 736,
@@ -7367,7 +7367,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "Редуктор",
     designation: "0411.138SGR.01.776",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 737,
@@ -7377,7 +7377,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.777",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 738,
@@ -7387,7 +7387,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "Двигатель",
     designation: "0411.138SGR.01.778",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 739,
@@ -7397,7 +7397,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.779",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 740,
@@ -7407,7 +7407,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "",
     designation: "0411.138SGR.01.780",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 741,
@@ -7417,7 +7417,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "Редуктор",
     designation: "0411.138SGR.01.781",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 742,
@@ -7427,7 +7427,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "",
     designation: "0411.138SGR.01.782",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 743,
@@ -7437,7 +7437,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "Редуктор",
     designation: "0411.138SGR.01.783",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 744,
@@ -7447,7 +7447,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.784",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 745,
@@ -7457,7 +7457,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "Двигатель",
     designation: "0411.138SGR.01.785",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 746,
@@ -7467,7 +7467,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.786",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 747,
@@ -7477,7 +7477,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "",
     designation: "0411.138SGR.01.787",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 748,
@@ -7487,7 +7487,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "Редуктор",
     designation: "0411.138SGR.01.788",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 749,
@@ -7497,7 +7497,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "",
     designation: "0411.138SGR.01.789",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 750,
@@ -7507,7 +7507,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "Редуктор",
     designation: "0411.138SGR.01.790",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 751,
@@ -7517,7 +7517,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.791",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 752,
@@ -7527,7 +7527,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "Двигатель",
     designation: "0411.138SGR.01.792",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 753,
@@ -7537,7 +7537,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.793",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 754,
@@ -7547,7 +7547,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "",
     designation: "0411.138SGR.01.794",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 755,
@@ -7557,7 +7557,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "Редуктор",
     designation: "0411.138SGR.01.795",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 756,
@@ -7567,7 +7567,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "",
     designation: "0411.138SGR.01.796",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 757,
@@ -7577,7 +7577,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "Редуктор",
     designation: "0411.138SGR.01.797",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 758,
@@ -7587,7 +7587,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.798",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 759,
@@ -7597,7 +7597,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "Двигатель",
     designation: "0411.138SGR.01.799",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 760,
@@ -7607,7 +7607,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.800",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 761,
@@ -7617,7 +7617,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "",
     designation: "0411.138SGR.01.801",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 762,
@@ -7627,7 +7627,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "Редуктор",
     designation: "0411.138SGR.01.802",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 763,
@@ -7637,7 +7637,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "",
     designation: "0411.138SGR.01.803",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 764,
@@ -7647,7 +7647,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "Редуктор",
     designation: "0411.138SGR.01.804",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 765,
@@ -7657,7 +7657,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.805",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 766,
@@ -7667,7 +7667,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "Двигатель",
     designation: "0411.138SGR.01.806",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 767,
@@ -7677,7 +7677,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.807",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 768,
@@ -7687,7 +7687,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "",
     designation: "0411.138SGR.01.808",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 769,
@@ -7697,7 +7697,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "Редуктор",
     designation: "0411.138SGR.01.809",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 770,
@@ -7707,7 +7707,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "",
     designation: "0411.138SGR.01.810",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 771,
@@ -7717,7 +7717,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "Редуктор",
     designation: "0411.138SGR.01.811",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 772,
@@ -7727,7 +7727,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.812",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 773,
@@ -7737,7 +7737,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "Двигатель",
     designation: "0411.138SGR.01.813",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 774,
@@ -7747,7 +7747,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.814",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 775,
@@ -7757,7 +7757,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "",
     designation: "0411.138SGR.01.815",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 776,
@@ -7767,7 +7767,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "Редуктор",
     designation: "0411.138SGR.01.816",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 777,
@@ -7777,7 +7777,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "",
     designation: "0411.138SGR.01.817",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 778,
@@ -7787,7 +7787,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "Редуктор",
     designation: "0411.138SGR.01.818",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 779,
@@ -7797,7 +7797,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.819",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 780,
@@ -7807,7 +7807,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "Двигатель",
     designation: "0411.138SGR.01.820",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 781,
@@ -7817,7 +7817,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.821",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 782,
@@ -7827,7 +7827,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "",
     designation: "0411.138SGR.01.822",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 783,
@@ -7837,7 +7837,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "Редуктор",
     designation: "0411.138SGR.01.823",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 784,
@@ -7847,7 +7847,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "",
     designation: "0411.138SGR.01.824",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 785,
@@ -7857,7 +7857,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "Редуктор",
     designation: "0411.138SGR.01.825",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 786,
@@ -7867,7 +7867,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.826",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 787,
@@ -7877,7 +7877,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "Двигатель",
     designation: "0411.138SGR.01.827",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 788,
@@ -7887,7 +7887,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.828",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 789,
@@ -7897,7 +7897,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "",
     designation: "0411.138SGR.01.829",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 790,
@@ -7907,7 +7907,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "Редуктор",
     designation: "0411.138SGR.01.830",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 791,
@@ -7917,7 +7917,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "",
     designation: "0411.138SGR.01.831",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 792,
@@ -7927,7 +7927,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "Редуктор",
     designation: "0411.138SGR.01.832",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 793,
@@ -7937,7 +7937,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.833",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 794,
@@ -7947,7 +7947,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "Двигатель",
     designation: "0411.138SGR.01.834",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 795,
@@ -7957,7 +7957,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.835",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 796,
@@ -7967,7 +7967,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "",
     designation: "0411.138SGR.01.836",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 797,
@@ -7977,7 +7977,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "Редуктор",
     designation: "0411.138SGR.01.837",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 798,
@@ -7987,7 +7987,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "",
     designation: "0411.138SGR.01.838",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 799,
@@ -7997,7 +7997,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "Редуктор",
     designation: "0411.138SGR.01.839",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 800,
@@ -8007,7 +8007,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.840",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 801,
@@ -8017,7 +8017,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "Двигатель",
     designation: "0411.138SGR.01.841",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 802,
@@ -8027,7 +8027,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.842",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 803,
@@ -8037,7 +8037,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "",
     designation: "0411.138SGR.01.843",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 804,
@@ -8047,7 +8047,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "Редуктор",
     designation: "0411.138SGR.01.844",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 805,
@@ -8057,7 +8057,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "",
     designation: "0411.138SGR.01.845",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 806,
@@ -8067,7 +8067,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "Редуктор",
     designation: "0411.138SGR.01.846",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 807,
@@ -8077,7 +8077,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.847",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 808,
@@ -8087,7 +8087,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "Двигатель",
     designation: "0411.138SGR.01.848",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 809,
@@ -8097,7 +8097,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.849",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 810,
@@ -8107,7 +8107,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "",
     designation: "0411.138SGR.01.850",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 811,
@@ -8117,7 +8117,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "Редуктор",
     designation: "0411.138SGR.01.851",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 812,
@@ -8127,7 +8127,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "",
     designation: "0411.138SGR.01.852",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 813,
@@ -8137,7 +8137,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "Редуктор",
     designation: "0411.138SGR.01.853",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 814,
@@ -8147,7 +8147,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.854",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 815,
@@ -8157,7 +8157,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "Двигатель",
     designation: "0411.138SGR.01.855",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 816,
@@ -8167,7 +8167,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.856",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 817,
@@ -8177,7 +8177,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "",
     designation: "0411.138SGR.01.857",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 818,
@@ -8187,7 +8187,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "Редуктор",
     designation: "0411.138SGR.01.858",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 819,
@@ -8197,7 +8197,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "",
     designation: "0411.138SGR.01.859",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 820,
@@ -8207,7 +8207,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "Редуктор",
     designation: "0411.138SGR.01.860",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 821,
@@ -8217,7 +8217,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.861",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 822,
@@ -8227,7 +8227,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "Двигатель",
     designation: "0411.138SGR.01.862",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 823,
@@ -8237,7 +8237,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.863",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 824,
@@ -8247,7 +8247,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "",
     designation: "0411.138SGR.01.864",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 825,
@@ -8257,7 +8257,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "Редуктор",
     designation: "0411.138SGR.01.865",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 826,
@@ -8267,7 +8267,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "",
     designation: "0411.138SGR.01.866",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 827,
@@ -8277,7 +8277,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "Редуктор",
     designation: "0411.138SGR.01.867",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 828,
@@ -8287,7 +8287,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.868",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 829,
@@ -8297,7 +8297,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "Двигатель",
     designation: "0411.138SGR.01.869",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 830,
@@ -8307,7 +8307,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.870",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 831,
@@ -8317,7 +8317,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "",
     designation: "0411.138SGR.01.871",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 832,
@@ -8327,7 +8327,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "Редуктор",
     designation: "0411.138SGR.01.872",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 833,
@@ -8337,7 +8337,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "",
     designation: "0411.138SGR.01.873",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 834,
@@ -8347,7 +8347,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "Редуктор",
     designation: "0411.138SGR.01.874",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 835,
@@ -8357,7 +8357,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.875",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 836,
@@ -8367,7 +8367,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "Двигатель",
     designation: "0411.138SGR.01.876",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 837,
@@ -8377,7 +8377,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.877",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 838,
@@ -8387,7 +8387,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "",
     designation: "0411.138SGR.01.878",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 839,
@@ -8397,7 +8397,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "Редуктор",
     designation: "0411.138SGR.01.879",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 840,
@@ -8407,7 +8407,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "",
     designation: "0411.138SGR.01.880",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 841,
@@ -8417,7 +8417,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "Редуктор",
     designation: "0411.138SGR.01.881",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 842,
@@ -8427,7 +8427,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.882",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 843,
@@ -8437,7 +8437,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "Двигатель",
     designation: "0411.138SGR.01.883",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 844,
@@ -8447,7 +8447,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.884",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 845,
@@ -8457,7 +8457,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "",
     designation: "0411.138SGR.01.885",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 846,
@@ -8467,7 +8467,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "Редуктор",
     designation: "0411.138SGR.01.886",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 847,
@@ -8477,7 +8477,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "",
     designation: "0411.138SGR.01.887",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 848,
@@ -8487,7 +8487,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "Редуктор",
     designation: "0411.138SGR.01.888",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 849,
@@ -8497,7 +8497,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.889",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 850,
@@ -8507,7 +8507,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "Двигатель",
     designation: "0411.138SGR.01.890",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 851,
@@ -8517,7 +8517,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.891",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 852,
@@ -8527,7 +8527,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "",
     designation: "0411.138SGR.01.892",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 853,
@@ -8537,7 +8537,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "Редуктор",
     designation: "0411.138SGR.01.893",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 854,
@@ -8547,7 +8547,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "",
     designation: "0411.138SGR.01.894",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 855,
@@ -8557,7 +8557,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "Редуктор",
     designation: "0411.138SGR.01.895",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 856,
@@ -8567,7 +8567,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.896",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 857,
@@ -8577,7 +8577,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "Двигатель",
     designation: "0411.138SGR.01.897",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 858,
@@ -8587,7 +8587,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.898",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 859,
@@ -8597,7 +8597,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "",
     designation: "0411.138SGR.01.899",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 860,
@@ -8607,7 +8607,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "Редуктор",
     designation: "0411.138SGR.01.900",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 861,
@@ -8617,7 +8617,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "",
     designation: "0411.138SGR.01.901",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 862,
@@ -8627,7 +8627,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "Редуктор",
     designation: "0411.138SGR.01.902",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 863,
@@ -8637,7 +8637,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.903",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 864,
@@ -8647,7 +8647,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "Двигатель",
     designation: "0411.138SGR.01.904",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 865,
@@ -8657,7 +8657,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.905",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 866,
@@ -8667,7 +8667,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "",
     designation: "0411.138SGR.01.906",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 867,
@@ -8677,7 +8677,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "Редуктор",
     designation: "0411.138SGR.01.907",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 868,
@@ -8687,7 +8687,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "",
     designation: "0411.138SGR.01.908",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 869,
@@ -8697,7 +8697,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "Редуктор",
     designation: "0411.138SGR.01.909",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 870,
@@ -8707,7 +8707,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.910",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 871,
@@ -8717,7 +8717,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "Двигатель",
     designation: "0411.138SGR.01.911",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 872,
@@ -8727,7 +8727,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.912",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 873,
@@ -8737,7 +8737,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "",
     designation: "0411.138SGR.01.913",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 874,
@@ -8747,7 +8747,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "Редуктор",
     designation: "0411.138SGR.01.914",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 875,
@@ -8757,7 +8757,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "",
     designation: "0411.138SGR.01.915",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 876,
@@ -8767,7 +8767,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "Редуктор",
     designation: "0411.138SGR.01.916",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 877,
@@ -8777,7 +8777,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.917",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 878,
@@ -8787,7 +8787,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "Двигатель",
     designation: "0411.138SGR.01.918",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 879,
@@ -8797,7 +8797,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.919",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 880,
@@ -8807,7 +8807,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "",
     designation: "0411.138SGR.01.920",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 881,
@@ -8817,7 +8817,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "Редуктор",
     designation: "0411.138SGR.01.921",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 882,
@@ -8827,7 +8827,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "",
     designation: "0411.138SGR.01.922",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 883,
@@ -8837,7 +8837,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "Редуктор",
     designation: "0411.138SGR.01.923",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 884,
@@ -8847,7 +8847,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.924",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 885,
@@ -8857,7 +8857,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "Двигатель",
     designation: "0411.138SGR.01.925",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 886,
@@ -8867,7 +8867,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.926",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 887,
@@ -8877,7 +8877,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "",
     designation: "0411.138SGR.01.927",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 888,
@@ -8887,7 +8887,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "Редуктор",
     designation: "0411.138SGR.01.928",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 889,
@@ -8897,7 +8897,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "",
     designation: "0411.138SGR.01.929",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 890,
@@ -8907,7 +8907,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "Редуктор",
     designation: "0411.138SGR.01.930",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 891,
@@ -8917,7 +8917,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.931",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 892,
@@ -8927,7 +8927,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "Двигатель",
     designation: "0411.138SGR.01.932",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 893,
@@ -8937,7 +8937,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.933",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 894,
@@ -8947,7 +8947,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "",
     designation: "0411.138SGR.01.934",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 895,
@@ -8957,7 +8957,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "Редуктор",
     designation: "0411.138SGR.01.935",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 896,
@@ -8967,7 +8967,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "",
     designation: "0411.138SGR.01.936",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 897,
@@ -8977,7 +8977,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "Редуктор",
     designation: "0411.138SGR.01.937",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 898,
@@ -8987,7 +8987,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.938",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 899,
@@ -8997,7 +8997,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "Двигатель",
     designation: "0411.138SGR.01.939",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 900,
@@ -9007,7 +9007,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.940",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 901,
@@ -9017,7 +9017,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "",
     designation: "0411.138SGR.01.941",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 902,
@@ -9027,7 +9027,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "Редуктор",
     designation: "0411.138SGR.01.942",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 903,
@@ -9037,7 +9037,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "",
     designation: "0411.138SGR.01.943",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 904,
@@ -9047,7 +9047,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "Редуктор",
     designation: "0411.138SGR.01.944",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 905,
@@ -9057,7 +9057,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.945",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 906,
@@ -9067,7 +9067,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "Двигатель",
     designation: "0411.138SGR.01.946",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 907,
@@ -9077,7 +9077,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.947",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 908,
@@ -9087,7 +9087,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "",
     designation: "0411.138SGR.01.948",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 909,
@@ -9097,7 +9097,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "Редуктор",
     designation: "0411.138SGR.01.949",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 910,
@@ -9107,7 +9107,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "",
     designation: "0411.138SGR.01.950",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 911,
@@ -9117,7 +9117,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "Редуктор",
     designation: "0411.138SGR.01.951",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 912,
@@ -9127,7 +9127,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.952",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 913,
@@ -9137,7 +9137,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "Двигатель",
     designation: "0411.138SGR.01.953",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 914,
@@ -9147,7 +9147,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.954",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 915,
@@ -9157,7 +9157,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "",
     designation: "0411.138SGR.01.955",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 916,
@@ -9167,7 +9167,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "Редуктор",
     designation: "0411.138SGR.01.956",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 917,
@@ -9177,7 +9177,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "",
     designation: "0411.138SGR.01.957",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 918,
@@ -9187,7 +9187,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "Редуктор",
     designation: "0411.138SGR.01.958",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 919,
@@ -9197,7 +9197,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.959",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 920,
@@ -9207,7 +9207,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "Двигатель",
     designation: "0411.138SGR.01.960",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 921,
@@ -9217,7 +9217,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.961",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 922,
@@ -9227,7 +9227,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "",
     designation: "0411.138SGR.01.962",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 923,
@@ -9237,7 +9237,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "Редуктор",
     designation: "0411.138SGR.01.963",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 924,
@@ -9247,7 +9247,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "",
     designation: "0411.138SGR.01.964",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 925,
@@ -9257,7 +9257,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "Редуктор",
     designation: "0411.138SGR.01.965",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 926,
@@ -9267,7 +9267,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.966",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 927,
@@ -9277,7 +9277,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "Двигатель",
     designation: "0411.138SGR.01.967",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 928,
@@ -9287,7 +9287,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.968",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 929,
@@ -9297,7 +9297,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "",
     designation: "0411.138SGR.01.969",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 930,
@@ -9307,7 +9307,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "Редуктор",
     designation: "0411.138SGR.01.970",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 931,
@@ -9317,7 +9317,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "",
     designation: "0411.138SGR.01.971",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 932,
@@ -9327,7 +9327,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "Редуктор",
     designation: "0411.138SGR.01.972",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 933,
@@ -9337,7 +9337,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.973",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 934,
@@ -9347,7 +9347,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "Двигатель",
     designation: "0411.138SGR.01.974",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 935,
@@ -9357,7 +9357,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.975",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 936,
@@ -9367,7 +9367,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "",
     designation: "0411.138SGR.01.976",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 937,
@@ -9377,7 +9377,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "Редуктор",
     designation: "0411.138SGR.01.977",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 938,
@@ -9387,7 +9387,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "",
     designation: "0411.138SGR.01.978",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 939,
@@ -9397,7 +9397,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "Редуктор",
     designation: "0411.138SGR.01.979",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 940,
@@ -9407,7 +9407,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.980",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 941,
@@ -9417,7 +9417,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "Двигатель",
     designation: "0411.138SGR.01.981",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 942,
@@ -9427,7 +9427,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.982",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 943,
@@ -9437,7 +9437,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "",
     designation: "0411.138SGR.01.983",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 944,
@@ -9447,7 +9447,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "Редуктор",
     designation: "0411.138SGR.01.984",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 945,
@@ -9457,7 +9457,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "",
     designation: "0411.138SGR.01.985",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 946,
@@ -9467,7 +9467,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "Редуктор",
     designation: "0411.138SGR.01.986",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 947,
@@ -9477,7 +9477,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.987",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 948,
@@ -9487,7 +9487,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "Двигатель",
     designation: "0411.138SGR.01.988",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 949,
@@ -9497,7 +9497,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.989",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 950,
@@ -9507,7 +9507,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "",
     designation: "0411.138SGR.01.990",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 951,
@@ -9517,7 +9517,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "Редуктор",
     designation: "0411.138SGR.01.991",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 952,
@@ -9527,7 +9527,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "",
     designation: "0411.138SGR.01.992",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 953,
@@ -9537,7 +9537,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "Редуктор",
     designation: "0411.138SGR.01.993",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 954,
@@ -9547,7 +9547,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.994",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 955,
@@ -9557,7 +9557,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "Двигатель",
     designation: "0411.138SGR.01.995",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 956,
@@ -9567,7 +9567,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.996",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 957,
@@ -9577,7 +9577,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "",
     designation: "0411.138SGR.01.997",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 958,
@@ -9587,7 +9587,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "Редуктор",
     designation: "0411.138SGR.01.998",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 959,
@@ -9597,7 +9597,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "",
     designation: "0411.138SGR.01.999",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 960,
@@ -9607,7 +9607,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "Редуктор",
     designation: "0411.138SGR.01.1000",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 961,
@@ -9617,7 +9617,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.1001",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 962,
@@ -9627,7 +9627,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "Двигатель",
     designation: "0411.138SGR.01.1002",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 963,
@@ -9637,7 +9637,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.1003",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 964,
@@ -9647,7 +9647,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "",
     designation: "0411.138SGR.01.1004",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 965,
@@ -9657,7 +9657,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "Редуктор",
     designation: "0411.138SGR.01.1005",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 966,
@@ -9667,7 +9667,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "",
     designation: "0411.138SGR.01.1006",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 967,
@@ -9677,7 +9677,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "Редуктор",
     designation: "0411.138SGR.01.1007",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 968,
@@ -9687,7 +9687,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.1008",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 969,
@@ -9697,7 +9697,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "Двигатель",
     designation: "0411.138SGR.01.1009",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 970,
@@ -9707,7 +9707,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.1010",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 971,
@@ -9717,7 +9717,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "",
     designation: "0411.138SGR.01.1011",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 972,
@@ -9727,7 +9727,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "Редуктор",
     designation: "0411.138SGR.01.1012",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 973,
@@ -9737,7 +9737,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "",
     designation: "0411.138SGR.01.1013",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 974,
@@ -9747,7 +9747,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "Редуктор",
     designation: "0411.138SGR.01.1014",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 975,
@@ -9757,7 +9757,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.1015",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 976,
@@ -9767,7 +9767,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "Двигатель",
     designation: "0411.138SGR.01.1016",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 977,
@@ -9777,7 +9777,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.1017",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 978,
@@ -9787,7 +9787,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "",
     designation: "0411.138SGR.01.1018",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 979,
@@ -9797,7 +9797,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "Редуктор",
     designation: "0411.138SGR.01.1019",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 980,
@@ -9807,7 +9807,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "",
     designation: "0411.138SGR.01.1020",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 981,
@@ -9817,7 +9817,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "Редуктор",
     designation: "0411.138SGR.01.1021",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 982,
@@ -9827,7 +9827,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.1022",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 983,
@@ -9837,7 +9837,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "Двигатель",
     designation: "0411.138SGR.01.1023",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 984,
@@ -9847,7 +9847,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.1024",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 985,
@@ -9857,7 +9857,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "",
     designation: "0411.138SGR.01.1025",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 986,
@@ -9867,7 +9867,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "Редуктор",
     designation: "0411.138SGR.01.1026",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 987,
@@ -9877,7 +9877,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "",
     designation: "0411.138SGR.01.1027",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 988,
@@ -9887,7 +9887,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "Редуктор",
     designation: "0411.138SGR.01.1028",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 989,
@@ -9897,7 +9897,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.1029",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 990,
@@ -9907,7 +9907,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "Двигатель",
     designation: "0411.138SGR.01.1030",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 991,
@@ -9917,7 +9917,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.1031",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 992,
@@ -9927,7 +9927,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "",
     designation: "0411.138SGR.01.1032",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 993,
@@ -9937,7 +9937,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "Редуктор",
     designation: "0411.138SGR.01.1033",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 994,
@@ -9947,7 +9947,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "",
     designation: "0411.138SGR.01.1034",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 995,
@@ -9957,7 +9957,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "Редуктор",
     designation: "0411.138SGR.01.1035",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 996,
@@ -9967,7 +9967,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.1036",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 997,
@@ -9977,7 +9977,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "Двигатель",
     designation: "0411.138SGR.01.1037",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 998,
@@ -9987,7 +9987,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.1038",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 999,
@@ -9997,7 +9997,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "",
     designation: "0411.138SGR.01.1039",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 1000,
@@ -10007,7 +10007,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "Редуктор",
     designation: "0411.138SGR.01.1040",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 1001,
@@ -10017,7 +10017,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "",
     designation: "0411.138SGR.01.1041",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 1002,
@@ -10027,7 +10027,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "Редуктор",
     designation: "0411.138SGR.01.1042",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 1003,
@@ -10037,7 +10037,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.1043",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 1004,
@@ -10047,7 +10047,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "Двигатель",
     designation: "0411.138SGR.01.1044",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 1005,
@@ -10057,7 +10057,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.1045",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 1006,
@@ -10067,7 +10067,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "",
     designation: "0411.138SGR.01.1046",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 1007,
@@ -10077,7 +10077,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "Редуктор",
     designation: "0411.138SGR.01.1047",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 1008,
@@ -10087,7 +10087,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "",
     designation: "0411.138SGR.01.1048",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 1009,
@@ -10097,7 +10097,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "Редуктор",
     designation: "0411.138SGR.01.1049",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 1010,
@@ -10107,7 +10107,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.1050",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 1011,
@@ -10117,7 +10117,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "Двигатель",
     designation: "0411.138SGR.01.1051",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 1012,
@@ -10127,7 +10127,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.1052",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 1013,
@@ -10137,7 +10137,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "",
     designation: "0411.138SGR.01.1053",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 1014,
@@ -10147,7 +10147,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "Редуктор",
     designation: "0411.138SGR.01.1054",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 1015,
@@ -10157,7 +10157,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "",
     designation: "0411.138SGR.01.1055",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 1016,
@@ -10167,7 +10167,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "Редуктор",
     designation: "0411.138SGR.01.1056",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 1017,
@@ -10177,7 +10177,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.1057",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 1018,
@@ -10187,7 +10187,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "Двигатель",
     designation: "0411.138SGR.01.1058",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 1019,
@@ -10197,7 +10197,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.1059",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 1020,
@@ -10207,7 +10207,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "",
     designation: "0411.138SGR.01.1060",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 1021,
@@ -10217,7 +10217,7 @@ const dataDetail = [
     type: "SGR11",
     consist: "Редуктор",
     designation: "0411.138SGR.01.1061",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 1022,
@@ -10227,7 +10227,7 @@ const dataDetail = [
     type: "SGR10, SGR11",
     consist: "",
     designation: "0411.138SGR.01.1062",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 1023,
@@ -10237,7 +10237,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16",
     consist: "Редуктор",
     designation: "0411.138SGR.01.1063",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   },
   {
     id: 1024,
@@ -10247,7 +10247,7 @@ const dataDetail = [
     type: "SGR10, SGR11, SGR16, SGR22, SGR26, SGR33, SGR36",
     consist: "Тормозная система",
     designation: "0411.138SGR.01.1064",
-    img: "./img_details/0411.138SGR.01.043.jpg"
+    img: "/img_details/0411.138SGR.01.043.jpg"
   }
 ]
 

@@ -25,13 +25,13 @@ export default class App extends React.Component {
       items: {}
     };
     this.addBasket = this.addBasket.bind(this);
-    this.removeBasket = this.removeBasket.bind(this);
+    this.handleBasketInput = this.handleBasketInput.bind(this);
+    this.handleBasketPlus = this.handleBasketPlus.bind(this);
+    this.handleBasketMinus = this.handleBasketMinus.bind(this);
+    this.handleRemoveBasket = this.handleRemoveBasket.bind(this);
     this.handleSelectChange = this.handleSelectChange.bind(this);
     this.handleRadioChange = this.handleRadioChange.bind(this);
     this.handleSearchClick = this.handleSearchClick.bind(this);
-    this.handleBasketPlus = this.handleBasketPlus.bind(this);
-    this.handleBasketMinus = this.handleBasketMinus.bind(this);
-    this.handleBasketInput = this.handleBasketInput.bind(this);
     this.searchRef = React.createRef();
   }
 
@@ -91,16 +91,16 @@ export default class App extends React.Component {
     this.setState({ items: items });
   }
 
-  removeBasket (id){
+  handleRemoveBasket (id){
     //let items = this.state.items.slice(0), result = [];
     let items = Object.assign({}, this.state.items);;
     let result = [];
     for(let i in items )
           if(i != id)
             result[i] = items[i]
-    /*console.log("Удаляем ", id)
+    console.log("Удаляем ", id)
     console.log("Исходный ", items)
-    console.log("Результирующий ", result)*/
+    console.log("Результирующий ", result)
     this.setState({items: result});
   }
 
@@ -108,7 +108,13 @@ export default class App extends React.Component {
     // очистка поиска детали при выборе новой лебедки
     this.searchRef.current.clearSearch();
     inputProps.value = '';
-    //console.log('Поиск деталей (из handleSelectChange в App): ', inputProps.value);
+    console.log('Поиск деталей (из handleSelectChange в App): ', inputProps.value);
+    let collapsed = document.getElementById('collapseId');
+    if ( value != 'All' ) {
+      collapsed.classList.add('show') // Показывает скрываемые элементы Radio и Поиск (метод Bootstrap-4)
+    } else {
+      collapsed.classList.remove('show') // Cкрывает элементы Radio и Поиск (метод Bootstrap-4)
+    }
 
     // изменение состояния списка деталей лкбедки
     this.setState({
@@ -150,12 +156,12 @@ export default class App extends React.Component {
   }
 
   render(){
-    //const value = this.state.value;
     let details, toggleFieldset, renderDataDetail=[];
     console.log('Блок деталей (из render в App): ', this.state.valueRadio);
     console.log('Поиск деталей (из render в App): ', inputProps.value);
 
     if (this.state.value != 'All') {
+      //$('.collapse').collapse("show"); // Показывает скрываемые элементы Radio и Поиск (метод Bootstrap-4)
       toggleFieldset = false; // переключатель активности fieldset
 
       // формирование массива из выбранного типа лебедки для использования в компоненте Search
@@ -201,9 +207,10 @@ export default class App extends React.Component {
       //arrFiltered = dataDetail.filter(obj => !uniq[obj.title] && (uniq[obj.title] = true));
       //console.log('Массив для поиска (из render в App): ', arrFiltered);
 
+      //$('.collapse').collapse("hide"); // скрывает элементы Radio и Поиск (метод Bootstrap-4)
+      toggleFieldset = true;
       details = dataDetail.map(item => {
                                    this.state.isChecked = true;
-                                   toggleFieldset = true;
                                    return <Detail
                                        id={item["id"]}
                                        title={item["title"]}
@@ -222,24 +229,30 @@ export default class App extends React.Component {
     return <div>
       <Basket
         items={this.state.items}
-        handleRemoveBasket={this.removeBasket}
+        handleRemoveBasket={this.handleRemoveBasket}
         handleBasketPlus={this.handleBasketPlus}
         handleBasketMinus={this.handleBasketMinus}
         handleBasketInput={this.handleBasketInput}
       />
       <br/>
-      <Select value={this.state.value} onChange={this.handleSelectChange}/>
+      <Select value={this.state.value} onChange={this.handleSelectChange} />
       <br/>
-      <fieldset disabled={toggleFieldset}>
-        <Radio checked={this.state.isChecked} value={this.state.valueRadio} onChange={this.handleRadioChange}/>
-        <br/>
-        <div className="input-group mb-3">
-          <Search ref={this.searchRef} />
-          <div className="input-group-append ">
-            <button onClick={this.handleSearchClick} className="btn btn-primary" type="button">Искать</button>
+      <div className="mycollapse" id="collapseId">
+        <fieldset disabled={toggleFieldset}>
+          <Radio checked={this.state.isChecked} value={this.state.valueRadio} onChange={this.handleRadioChange}/>
+          <br/>
+          <div>
+            <div className="row no-gutters">
+              <div className="col">
+                <Search ref={this.searchRef} />
+              </div>
+              <div className="col-3 col-sm-2 col-md-1">
+                <button onClick={this.handleSearchClick} className="btn btn-primary" type="button">Искать</button>
+              </div>
+            </div>
           </div>
-        </div>
-      </fieldset>
+        </fieldset>
+      </div>
       <hr/><br/>
       <div className = "row">
         {details}

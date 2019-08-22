@@ -53,7 +53,7 @@ export default class Basket extends React.Component {
     for(let i in this.props.items){
       hr = (counter) ? <hr style={{margin:'7px 0 6px 0'}}/> : null;
       counter++;
-      console.log(i + " =  " + this.props.items[i] + " ("  + this.getIndexById(i) + ") ");
+      //console.log(i + " =  " + this.props.items[i] + " ("  + this.getIndexById(i) + ") ");
       j = this.getIndexById(i);
       //amount2 = this.
       //sum += this.props.items[i] * dataDetail[j]['price']
@@ -67,22 +67,24 @@ export default class Basket extends React.Component {
                 className="form-control-sm"
                 type='text'
                 autoComplete='off'
-                style={{width:'24px', height:'22px'}}
+                style={{width:'26px', height:'22px'}}
                 id={i}
                 value={this.props.items[i]}
                 onChange={this.handleInput}
               />
             <a onClick={this.plusClick} id={i} className='plusminus'> &#8593; </a>шт
           </span>
-          <a href="#" onClick={this.deleteBasketItem} id={i} style={{color:'red', textDecoration:'none',  float:'right'}}>&#10006;</a>
+          <a href="#" onClick={this.deleteBasketItem} id={i} className='removebasket'>&times;</a>
         </div>
       );
 	  }
 
     return <div>
-      <button type="button" className="btn btn-primary basket" data-toggle="modal" data-target="#exampleModal">
-        Ваш список запчастей ({counter})
-      </button>
+      <div className="basket-div">
+        <button type="button" className="basket btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+          Ваш список запчастей ({counter})
+        </button>
+      </div>
       <div className="modal fade" id="exampleModal" tabIndex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div className="modal-dialog" role="document">
           <div className="modal-content">

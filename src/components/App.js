@@ -39,7 +39,7 @@ export default class App extends React.Component {
     let items = Object.assign({}, this.state.items);
     //items[id] = (id in items) ? items[id]+1 : 1;
     items[id] = 1;
-    console.log('addBasket в App.js', items);
+    //console.log('addBasket в App.js', items);
     this.setState({ items: items });
   }
 
@@ -60,7 +60,7 @@ export default class App extends React.Component {
     } else {
       items[id] = 1;
     }
-    console.log('handleBasketInput в App.js', items, value);
+    //console.log('handleBasketInput в App.js', items, value);
     this.setState({ items: items });
   }
 
@@ -78,7 +78,7 @@ export default class App extends React.Component {
         items[id] = 1;
       }
     }
-    console.log('handleBasketPlus в App.js', items);
+    //console.log('handleBasketPlus в App.js', items);
     this.setState({ items: items });
   }
 
@@ -87,7 +87,7 @@ export default class App extends React.Component {
     if (id in items) {
       items[id] = ((items[id] !== 1) && (items[id] != '')) ? items[id]-1 : 1;
     }
-    console.log('handleBasketMinus в App.js', items);
+    //console.log('handleBasketMinus в App.js', items);
     this.setState({ items: items });
   }
 

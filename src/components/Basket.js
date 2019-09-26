@@ -48,60 +48,29 @@ export default class Basket extends React.Component {
   myAjax(e) {
     e.preventDefault();
     console.log('Массив объектов для передачи в cf7 (из myAjax в Basket): ', forCf7);
+    let strForCf7 = '';
+    for (let i = 0; i < forCf7.length; i++) {
+      strForCf7 += forCf7[i]['str'];
+      //alert( strForCf7 );
+    }
 
-    //const axios = require('axios');
-    // axios.get('http://web4hotel.ru/wp-admin/admin-ajax.php', {
-    //     params: {
-    //       action: 'my_action',
-    //       test1: 'test123'
-    //     }
-    //  })
+    if (document.getElementById('cf7Modal')){
+      console.log('cf7Modal запущена (myAjax в basket)', strForCf7);
+      document.getElementById('cf7Input').value = strForCf7;
+    } else {
+      console.log('cf7Modal НЕ запущена (myAjax в basket)');
+      setTimeout(() => document.getElementById('cf7Input').value = strForCf7, 1000);
+    }
 
-    axios.post('http://web4hotel.ru/wp-admin/admin-ajax.php?action=react', {
-          arrObj: forCf7
-      })
-        .then(function (response) {
-          console.log('Ajax response (myAjax в basket)', response);
-      })
-        .catch(function (error) {
-          console.log('Ajax error (myAjax в basket)', error);
-      });
-
-    // // 1. Создаём новый XMLHttpRequest-объект
-    // let xhr = new XMLHttpRequest();
-    // let data = JSON.stringify({
-		// 	action: 'react',
-    //   test1: '123'
-		// });
-    //
-    // // 2. Настраиваем его: GET-запрос по URL /article/.../load
-    // xhr.open('POST', 'http://web4hotel.ru/wp-admin/admin-ajax.php?action=react');
-    // //xhr.setRequestHeader('Content-type', 'application/x-www-form-urlencoded; charset=UTF-8');
-    //
-    // // 3. Отсылаем запрос
-    // xhr.send(data);
-    //
-    // // 4. Этот код сработает после того, как мы получим ответ сервера
-    // xhr.onload = function() {
-    //   if (xhr.status != 200) { // анализируем HTTP-статус ответа, если статус не 200, то произошла ошибка
-    //     alert(`Ошибка ${xhr.status}: ${xhr.statusText}`); // Например, 404: Not Found
-    //   } else { // если всё прошло гладко, выводим результат
-    //     alert(`Готово, получили ${xhr.response.length} байт`); // response -- это ответ сервера
-    //   }
-    // };
-    //
-    // xhr.onprogress = function(event) {
-    //   if (event.lengthComputable) {
-    //     alert(`Получено ${event.loaded} из ${event.total} байт`);
-    //   } else {
-    //     alert(`Получено ${event.loaded} байт`); // если в ответе нет заголовка Content-Length
-    //   }
-    //
-    // };
-    //
-    // xhr.onerror = function() {
-    //   alert("Запрос не удался");
-    // };
+    // axios.post('http://web4hotel.ru/wp-admin/admin-ajax.php?action=react', {
+    //       arrObj: forCf7
+    //   })
+    //     .then(function (response) {
+    //       console.log('Ajax response (myAjax в basket)', response);
+    //   })
+    //     .catch(function (error) {
+    //       console.log('Ajax error (myAjax в basket)', error);
+    //   });
   }
 
   getIndexById(id){
@@ -120,11 +89,12 @@ export default class Basket extends React.Component {
 
       // формируем массив объектов для передачи в cf7
       forCf7[counter] = {
-        id: counter+1,
+        // id: counter+1,
         idDataDetail: i,
-        winch: dataDetail[j]['winch'],
-        name: dataDetail[j]['title'],
-        amount: this.props.items[i]
+        // winch: dataDetail[j]['winch'],
+        // name: dataDetail[j]['title'],
+        // amount: this.props.items[i],
+        str: `\n${counter+1} : ${dataDetail[j]['winch'].toLowerCase()} : ${dataDetail[j]['title'].toLowerCase()} : ${this.props.items[i]} шт.;`
       }
 
       hr = (counter) ? <hr style={{margin:'7px 0 6px 0'}}/> : null;
@@ -133,8 +103,8 @@ export default class Basket extends React.Component {
       items.push(
         <div key={dataDetail[j]['id']} className="basket-item" style={{ fontSize:'0.9em' }}>
           {hr}
-          <span>{dataDetail[j]['winch']} : </span>
-          <span>{dataDetail[j]['title']}</span>
+          <span>{dataDetail[j]['winch'].toLowerCase()} : </span>
+          <span>{dataDetail[j]['title'].toLowerCase()}</span>
           <span style={{whiteSpace:'pre'}} >
             <a onClick={this.minusClick} id={i} className='plusminus'> &#8595; </a>
               <input
@@ -174,7 +144,7 @@ export default class Basket extends React.Component {
             </div>
             <div className="modal-footer">
               <button type="button" className="btn btn-secondary" data-dismiss="modal" style={{ fontSize:'0.9rem' }}>Продолжить выбор</button>
-              <button type="button" className="btn btn-primary" onClick={this.myAjax} style={{ fontSize:'0.9rem' }}>Отправить заявку</button>
+              <button type="button" className="btn btn-primary" data-dismiss="modal" data-toggle="modal" data-target="#cf7Modal" onClick={this.myAjax} style={{ fontSize:'0.9rem' }}>Отправить заявку</button>
             </div>
           </div>
         </div>

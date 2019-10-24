@@ -3,12 +3,9 @@ import dataDetail from '../data.js';
 import Detail from './Detail.js';
 import Select from './Select.js';
 import Radio from './Radio.js';
-//import DetailWithoutPrice from './DetailWithoutPrice.js';
-//import AddDetailForm from './AddDetailForm.js';
 import Basket from './Basket.js';
 import '../styles/index.css';
 import Search from './Search.js';
-//import { render } from "react-dom";
 import { inputProps } from './Search.js';
 export let arrFiltered = [];
 
@@ -98,9 +95,9 @@ export default class App extends React.Component {
     for(let i in items )
           if(i != id)
             result[i] = items[i]
-    console.log("Удаляем ", id)
-    console.log("Исходный ", items)
-    console.log("Результирующий ", result)
+    // console.log("Удаляем ", id)
+    // console.log("Исходный ", items)
+    // console.log("Результирующий ", result)
     this.setState({items: result});
   }
 
@@ -108,7 +105,7 @@ export default class App extends React.Component {
     // очистка поиска детали при выборе новой лебедки
     this.searchRef.current.clearSearch();
     inputProps.value = '';
-    console.log('Поиск деталей (из handleSelectChange в App): ', inputProps.value);
+    // console.log('Поиск деталей (из handleSelectChange в App): ', inputProps.value);
     let collapsed = document.getElementById('collapseId');
     if ( value != 'All' ) {
       collapsed.classList.add('show') // Показывает скрываемые элементы Radio и Поиск (метод Bootstrap-4)
@@ -127,7 +124,7 @@ export default class App extends React.Component {
         }),
       }
     );
-    console.log('Тип лебедки (из handleSelectChange в App): ', value);
+    // console.log('Тип лебедки (из handleSelectChange в App): ', value);
 
     // изменение состояния списка запчастей для компанента Radio
     //this.handleRadioChange('Все запчасти');
@@ -157,8 +154,8 @@ export default class App extends React.Component {
 
   render(){
     let details, toggleFieldset, renderDataDetail=[];
-    console.log('Блок деталей (из render в App): ', this.state.valueRadio);
-    console.log('Поиск деталей (из render в App): ', inputProps.value);
+    // console.log('Блок деталей (из render в App): ', this.state.valueRadio);
+    // console.log('Поиск деталей (из render в App): ', inputProps.value);
 
     if (this.state.value != 'All') {
       //$('.collapse').collapse("show"); // Показывает скрываемые элементы Radio и Поиск (метод Bootstrap-4)
@@ -166,7 +163,7 @@ export default class App extends React.Component {
 
       // формирование массива из выбранного типа лебедки для использования в компоненте Search
       arrFiltered = this.state.selectDataDetail;
-      console.log('Массив для поиска (из render в App): ', arrFiltered);
+      // console.log('Массив для поиска (из render в App): ', arrFiltered);
 
       if ( this.state.valueRadio == 'Все запчасти' ) {
         if (inputProps.value === '') {
@@ -179,7 +176,7 @@ export default class App extends React.Component {
       } else {
         // формирование массива из выбранного блока деталей для использования в компоненте Search
         arrFiltered = this.state.selectDataDetail.filter(obj => { return obj.consist == this.state.valueRadio; });
-        console.log('Массив для поиска (из render в App): ', arrFiltered);
+        // console.log('Массив для поиска (из render в App): ', arrFiltered);
 
         if (inputProps.value === '') {
           renderDataDetail = this.state.selectDataDetail.filter(obj => { return obj.consist == this.state.valueRadio; });
@@ -223,7 +220,7 @@ export default class App extends React.Component {
                                      />
                                  });
     }
-    console.log('Детали для отрисовки (из render в App): ', details, details.length);
+    // console.log('Детали для отрисовки (из render в App): ', details, details.length);
     if (details.length === 0) { details = 'По Вашему запросу ничего не найдено. Уточните выбор.'};
 
     return <div>
@@ -257,7 +254,7 @@ export default class App extends React.Component {
       <div className = "row">
         {details}
       </div>
-      <br/><br/><br/><br/><hr/>
+      <br/><hr/>
     </div>;
   }
 }

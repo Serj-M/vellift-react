@@ -1,7 +1,7 @@
 import React from 'react';
 import dataDetail from '../data.js';
 let forCf7 = [];
-import axios from 'axios';
+// import axios from 'axios';
 
 export default class Basket extends React.Component {
   constructor(props) {
@@ -47,7 +47,7 @@ export default class Basket extends React.Component {
 
   sendСf7Input(e) {
     e.preventDefault();
-    console.log('Массив объектов для передачи в cf7 (из sendСf7Input в Basket): ', forCf7);
+    // console.log('Массив объектов для передачи в cf7 (из sendСf7Input в Basket): ', forCf7);
     let strForCf7 = '';
     for (let i = 0; i < forCf7.length; i++) {
       strForCf7 += forCf7[i]['str'];
@@ -55,7 +55,7 @@ export default class Basket extends React.Component {
     }
 
     if (document.getElementById('cf7Modal')){
-      console.log('cf7Modal запущена (sendСf7Input в basket)', strForCf7);
+      // console.log('cf7Modal запущена (sendСf7Input в basket)', strForCf7);
       document.getElementById('cf7Input').value = strForCf7;
     } else {
       console.log('cf7Modal НЕ запущена (sendСf7Input в basket)');

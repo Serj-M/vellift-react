@@ -23,15 +23,8 @@ export default class Detail extends React.Component {
     // Добавляет эффект кнопки Список ваших запчастей при нажатии
     selectedEffect.classList.add('show');
   }
-  // componentDidMount() {
-  //  console.log('--','компонент смонтирован')
-  // }
-  // componentWillUnmount() {
-  //  console.log('--','компонент будет демонтирован')
-  // }
+  
   render(){
-    //const price = this.props.price ? <strong>{this.props.price}</strong> : <del>&nbsp;</del>;
-    //const img = this.props.img ? {this.props.img} : './img_details/МЖИГ.716414001.jpg';
     return <div className={"card md-3 "+(this.state.selected ? "detail-selected" : "detail-default")} >
       <div className="row no-gutters">
         <div className="col-md-5">
@@ -43,10 +36,6 @@ export default class Detail extends React.Component {
             <hr />
             <p className="card-text"><strong>Описание: </strong>{this.props.description}</p>
             <p className="card-text"><strong>Тип лебедки: </strong>{this.props.type}<br/><strong>Блок детали: </strong>{this.props.consist}</p>
-            {/*<p className="card-text">Автор: {this.props.author}</p>
-            <p className="card-text">Цена: {price} руб.</p>
-            <a href="#" onClick={this.handleClick}>Сравнить</a>&nbsp;&nbsp;&nbsp;
-            <a href="#" onClick={this.addBasketDetail}>В корзину</a>*/}
             <div className="text-right">
               <a href="#" className="btn btn-primary" onClick={this.addBasketDetail}>Узнать стоимость</a>
             </div>

@@ -1,4 +1,3 @@
-//<script src="https://unpkg.com/react-autosuggest/dist/standalone/autosuggest.js"></script>
 import React from 'react';
 import Autosuggest from 'react-autosuggest';
 import '../styles/search.css'

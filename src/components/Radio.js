@@ -28,6 +28,14 @@ export default class Radio extends React.Component {
         <input value="Тормозная система" type="radio" name="choice" id="C" onChange={this.handleChange} className="custom-control-input" />
         <label className="custom-control-label" htmlFor="C">Тормозная система</label>
       </div>
+      <div className="custom-control custom-radio custom-control-inline">
+        <input value="Лебедка" type="radio" name="choice" id="D" onChange={this.handleChange} className="custom-control-input" />
+        <label className="custom-control-label" htmlFor="D">Лебедка</label>
+      </div>
+      <div className="custom-control custom-radio custom-control-inline">
+        <input value="Привод" type="radio" name="choice" id="E" onChange={this.handleChange} className="custom-control-input" />
+        <label className="custom-control-label" htmlFor="E">Привод</label>
+      </div>
     </div>
   }
 }

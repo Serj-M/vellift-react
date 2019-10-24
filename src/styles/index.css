@@ -72,6 +72,10 @@
   display: none;
 }
 
+.basket-div {
+  display: none;
+}
+
 .show {
   display: block;
 }

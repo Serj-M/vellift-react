@@ -10,7 +10,7 @@ export default class Basket extends React.Component {
     this.plusClick = this.plusClick.bind(this);
     this.minusClick = this.minusClick.bind(this);
     this.handleInput = this.handleInput.bind(this);
-    this.myAjax = this.myAjax.bind(this);
+    this.sendСf7Input = this.sendСf7Input.bind(this);
   }
 
   handleInput(e) {
@@ -45,9 +45,9 @@ export default class Basket extends React.Component {
     handleRemoveBasket(i);
   }
 
-  myAjax(e) {
+  sendСf7Input(e) {
     e.preventDefault();
-    console.log('Массив объектов для передачи в cf7 (из myAjax в Basket): ', forCf7);
+    console.log('Массив объектов для передачи в cf7 (из sendСf7Input в Basket): ', forCf7);
     let strForCf7 = '';
     for (let i = 0; i < forCf7.length; i++) {
       strForCf7 += forCf7[i]['str'];
@@ -55,10 +55,10 @@ export default class Basket extends React.Component {
     }
 
     if (document.getElementById('cf7Modal')){
-      console.log('cf7Modal запущена (myAjax в basket)', strForCf7);
+      console.log('cf7Modal запущена (sendСf7Input в basket)', strForCf7);
       document.getElementById('cf7Input').value = strForCf7;
     } else {
-      console.log('cf7Modal НЕ запущена (myAjax в basket)');
+      console.log('cf7Modal НЕ запущена (sendСf7Input в basket)');
       setTimeout(() => document.getElementById('cf7Input').value = strForCf7, 1000);
     }
 
@@ -66,10 +66,10 @@ export default class Basket extends React.Component {
     //       arrObj: forCf7
     //   })
     //     .then(function (response) {
-    //       console.log('Ajax response (myAjax в basket)', response);
+    //       console.log('Ajax response (sendСf7Input в basket)', response);
     //   })
     //     .catch(function (error) {
-    //       console.log('Ajax error (myAjax в basket)', error);
+    //       console.log('Ajax error (sendСf7Input в basket)', error);
     //   });
   }
 
@@ -125,7 +125,7 @@ export default class Basket extends React.Component {
     //console.log('Массив объектов для передачи в cf7 (из render в Basket): ', forCf7);
 
     return <div>
-      <div className="basket-div">
+      <div className="basket-div" id="selected-detail">
         <button type="button" className="basket btn btn-primary" data-toggle="modal" data-target="#exampleModal">
           Ваш список запчастей ({counter})
         </button>
@@ -144,7 +144,7 @@ export default class Basket extends React.Component {
             </div>
             <div className="modal-footer">
               <button type="button" className="btn btn-secondary" data-dismiss="modal" style={{ fontSize:'0.9rem' }}>Продолжить выбор</button>
-              <button type="button" className="btn btn-primary" data-dismiss="modal" data-toggle="modal" data-target="#cf7Modal" onClick={this.myAjax} style={{ fontSize:'0.9rem' }}>Отправить заявку</button>
+              <button type="button" className="btn btn-primary" data-dismiss="modal" data-toggle="modal" data-target="#cf7Modal" onClick={this.sendСf7Input} style={{ fontSize:'0.9rem' }}>Отправить заявку</button>
             </div>
           </div>
         </div>

@@ -17,7 +17,11 @@ export default class Detail extends React.Component {
   addBasketDetail(e){
     e.preventDefault();
     const handleAddBasket = this.props.handleAddBasket;
-    handleAddBasket(this.props.id)
+    handleAddBasket(this.props.id);
+
+    let selectedEffect = document.getElementById('selected-detail');
+    // Добавляет эффект кнопки Список ваших запчастей при нажатии
+    selectedEffect.classList.add('show');
   }
   // componentDidMount() {
   //  console.log('--','компонент смонтирован')
@@ -26,7 +30,8 @@ export default class Detail extends React.Component {
   //  console.log('--','компонент будет демонтирован')
   // }
   render(){
-    const price = this.props.price ? <strong>{this.props.price}</strong> : <del>&nbsp;</del>;
+    //const price = this.props.price ? <strong>{this.props.price}</strong> : <del>&nbsp;</del>;
+    //const img = this.props.img ? {this.props.img} : './img_details/МЖИГ.716414001.jpg';
     return <div className={"card md-3 "+(this.state.selected ? "detail-selected" : "detail-default")} >
       <div className="row no-gutters">
         <div className="col-md-5">
@@ -34,7 +39,8 @@ export default class Detail extends React.Component {
         </div>
         <div className="col-md-7">
           <div className="card-body">
-            <h3 className="card-title">{this.props.title}</h3>
+            <h3 className="card-title" style={{ textAlign:'center' }}>{this.props.title}</h3>
+            <hr />
             <p className="card-text"><strong>Описание: </strong>{this.props.description}</p>
             <p className="card-text"><strong>Тип лебедки: </strong>{this.props.type}<br/><strong>Блок детали: </strong>{this.props.consist}</p>
             {/*<p className="card-text">Автор: {this.props.author}</p>

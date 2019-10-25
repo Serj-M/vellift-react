@@ -21,9 +21,9 @@ export default class Detail extends React.Component {
 
     let selectedEffect = document.getElementById('selected-detail');
     // Добавляет эффект кнопки Список ваших запчастей при нажатии
-    selectedEffect.classList.add('show');
+    selectedEffect.classList.add('my-show-detail');
   }
-  
+
   render(){
     return <div className={"card md-3 "+(this.state.selected ? "detail-selected" : "detail-default")} >
       <div className="row no-gutters">

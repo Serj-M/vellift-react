@@ -1,3 +1,7 @@
+.col-3 {
+    z-index: 11;
+}
+
 #root h3 {
   color: #004D40;
   line-height: 1.5;
@@ -68,16 +72,22 @@
   padding: 0 2px
 }
 
-.mycollapse {
-  display: none;
-}
-
 .basket-div {
   display: none;
 }
 
-.show {
+.my-show-detail {
   display: block;
+}
+
+.mycollapse {
+  display: none;
+  /* opacity: 0.4; */
+}
+
+.my-show {
+  display: block;
+  /* opacity: 1; */
 }
 
 /* .mycollapse.hide {
@@ -114,4 +124,10 @@
   .custom-control-inline {
     display: block !important;
   }
+}
+
+@media screen and (max-width: 1022px) {
+    .wrap_mW { z-index: 1 !important; }
+    .custom-select {  z-index: 9 !important;  }
+    .custom-control {  z-index: 9 !important;  }
 }

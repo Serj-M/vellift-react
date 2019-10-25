@@ -108,9 +108,9 @@ export default class App extends React.Component {
     // console.log('Поиск деталей (из handleSelectChange в App): ', inputProps.value);
     let collapsed = document.getElementById('collapseId');
     if ( value != 'All' ) {
-      collapsed.classList.add('show') // Показывает скрываемые элементы Radio и Поиск (метод Bootstrap-4)
+      collapsed.classList.add('my-show') // Показывает скрываемые элементы Radio и Поиск (метод Bootstrap-4)
     } else {
-      collapsed.classList.remove('show') // Cкрывает элементы Radio и Поиск (метод Bootstrap-4)
+      collapsed.classList.remove('my-show') // Cкрывает элементы Radio и Поиск (метод Bootstrap-4)
     }
 
     // изменение состояния списка деталей лкбедки
@@ -235,7 +235,7 @@ export default class App extends React.Component {
       <Select value={this.state.value} onChange={this.handleSelectChange} />
       <br/>
       <div className="mycollapse" id="collapseId">
-        <fieldset disabled={toggleFieldset}>
+        {/*<fieldset disabled={toggleFieldset}>*/}
           <Radio checked={this.state.isChecked} value={this.state.valueRadio} onChange={this.handleRadioChange}/>
           <br/>
           <div>
@@ -247,8 +247,8 @@ export default class App extends React.Component {
                 <button onClick={this.handleSearchClick} className="btn btn-primary" type="button">Искать</button>
               </div>
             </div>
-          </div>
-        </fieldset>
+          </div><br/>
+        {/*</fieldset>*/}
       </div>
       <hr/><br/>
       <div className = "row">

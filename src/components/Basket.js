@@ -94,7 +94,7 @@ export default class Basket extends React.Component {
         // winch: dataDetail[j]['winch'],
         // name: dataDetail[j]['title'],
         // amount: this.props.items[i],
-        str: `\n${counter+1} : ${dataDetail[j]['winch'].toLowerCase()} : ${dataDetail[j]['title'].toLowerCase()} : ${this.props.items[i]} шт.;`
+        str: `\n${counter+1} : ${dataDetail[j]['winch'].toLowerCase()} : ${dataDetail[j]['title'].toLowerCase()} : ${dataDetail[j]['designation']} : ${this.props.items[i]} шт.;`
       }
 
       hr = (counter) ? <hr style={{margin:'7px 0 6px 0'}}/> : null;

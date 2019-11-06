@@ -157,15 +157,22 @@ export default class App extends React.Component {
     // console.log('Блок деталей (из render в App): ', this.state.valueRadio);
     // console.log('Поиск деталей (из render в App): ', inputProps.value);
 
+    // проверяем выбран ли Тип лебедки
     if (this.state.value != 'All') {
+      // значит выбран Тип лебедки
       //$('.collapse').collapse("show"); // Показывает скрываемые элементы Radio и Поиск (метод Bootstrap-4)
       toggleFieldset = false; // переключатель активности fieldset
 
       // формирование массива из выбранного типа лебедки для использования в компоненте Search
-      arrFiltered = this.state.selectDataDetail;
-      // console.log('Массив для поиска (из render в App): ', arrFiltered);
+      let uniq={}, tempArrFiltered=[];
+      tempArrFiltered = this.state.selectDataDetail;
+      // формирование уникального массива для использования в компоненте Search если не сработает fieldset
+      arrFiltered = tempArrFiltered.filter(obj => !uniq[obj.title] && (uniq[obj.title] = true));
+      console.log('Массив для поиска (из render в App): ', arrFiltered);
 
+      // Проверяем выбран ли Блок запчастей
       if ( this.state.valueRadio == 'Все запчасти' ) {
+        // проверяем введено ли что-то в поиске
         if (inputProps.value === '') {
           renderDataDetail = this.state.selectDataDetail;
           //console.log(`render renderDataDetail ${renderDataDetail} this.state.selectDataDetail ${this.state.selectDataDetail}`);
@@ -174,10 +181,16 @@ export default class App extends React.Component {
           //console.log(`render renderDataDetail ${renderDataDetail} this.state.selectDataDetail ${this.state.selectDataDetail}`);
         }
       } else {
-        // формирование массива из выбранного блока деталей для использования в компоненте Search
-        arrFiltered = this.state.selectDataDetail.filter(obj => { return obj.consist == this.state.valueRadio; });
-        // console.log('Массив для поиска (из render в App): ', arrFiltered);
+        // значит Блок запчастей выбран
 
+        // формирование массива из выбранного блока деталей для использования в компоненте Search
+        let uniq={}, tempArrFiltered=[];
+        tempArrFiltered = this.state.selectDataDetail.filter(obj => { return obj.consist == this.state.valueRadio; });
+        // формирование уникального массива для использования в компоненте Search если не сработает fieldset
+        arrFiltered = tempArrFiltered.filter(obj => !uniq[obj.title] && (uniq[obj.title] = true));
+        console.log('Массив для поиска (из render в App): ', tempArrFiltered);
+
+        // проверяем введено ли что-то в поиске
         if (inputProps.value === '') {
           renderDataDetail = this.state.selectDataDetail.filter(obj => { return obj.consist == this.state.valueRadio; });
           //console.log(`render = renderDataDetail ${renderDataDetail} this.state.selectDataDetail ${this.state.selectDataDetail}`);
@@ -199,7 +212,7 @@ export default class App extends React.Component {
                                      />
                                  });
     } else {
-      //let uniq = {};
+      // значит Тип лебедки не выбран
       // формирование уникального массива для использования в компоненте Search если не сработает fieldset
       //arrFiltered = dataDetail.filter(obj => !uniq[obj.title] && (uniq[obj.title] = true));
       //console.log('Массив для поиска (из render в App): ', arrFiltered);

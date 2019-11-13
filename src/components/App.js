@@ -139,7 +139,7 @@ export default class App extends React.Component {
     this.setState(
       {
         valueRadio,
-        // если true, активным становиться Radio у кторого value = 'Все запчасти'
+        // если true, активным становиться Radio у которого value = 'Все запчасти'
         isChecked: (valueRadio == 'Все запчасти') ? true : false
       },
       //() => {console.log(`handleRadioChange = valueRadio ${valueRadio}, isChecked ${this.state.isChecked} `);}
